@@ -156,6 +156,32 @@
 		CE5EFDD41F392F36001A21C1 /* BRAdvancedSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EFDD31F392F36001A21C1 /* BRAdvancedSettingsViewController.m */; };
 		CE5EFDD71F3935BF001A21C1 /* BRSendBCHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EFDD61F3935BF001A21C1 /* BRSendBCHViewController.m */; };
 		CE5EFDDA1F3A87DC001A21C1 /* BCHSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EFDD91F3A87DC001A21C1 /* BCHSender.swift */; };
+		DEFC9EE71F756A7C00C5CA20 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9EE61F756A7C00C5CA20 /* Login.xib */; };
+		DEFC9EEA1F756B3400C5CA20 /* Pivx.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9EE91F756B3400C5CA20 /* Pivx.xcassets */; };
+		DEFC9EED1F756C0A00C5CA20 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9EEC1F756C0A00C5CA20 /* LoginController.swift */; };
+		DEFC9EEF1F756CB100C5CA20 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9EEE1F756CB100C5CA20 /* BaseController.swift */; };
+		DEFC9EF71F757C2C00C5CA20 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9EF61F757C2C00C5CA20 /* Constants.swift */; };
+		DEFC9EF91F757CAB00C5CA20 /* PivxExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9EF81F757CAB00C5CA20 /* PivxExtensions.swift */; };
+		DEFC9EFB1F75834500C5CA20 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9EFA1F75834500C5CA20 /* Utils.swift */; };
+		DEFC9EFD1F75896300C5CA20 /* RestoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9EFC1F75896300C5CA20 /* RestoreController.swift */; };
+		DEFC9EFF1F75899E00C5CA20 /* Restore.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9EFE1F75899E00C5CA20 /* Restore.xib */; };
+		DEFC9F021F75975900C5CA20 /* Step1View.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F011F75975900C5CA20 /* Step1View.xib */; };
+		DEFC9F0F1F759C4800C5CA20 /* ZillaSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F051F759C4800C5CA20 /* ZillaSlab-Bold.ttf */; };
+		DEFC9F101F759C4800C5CA20 /* ZillaSlab-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F061F759C4800C5CA20 /* ZillaSlab-BoldItalic.ttf */; };
+		DEFC9F111F759C4800C5CA20 /* ZillaSlab-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F071F759C4800C5CA20 /* ZillaSlab-Italic.ttf */; };
+		DEFC9F121F759C4800C5CA20 /* ZillaSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F081F759C4800C5CA20 /* ZillaSlab-Light.ttf */; };
+		DEFC9F131F759C4800C5CA20 /* ZillaSlab-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F091F759C4800C5CA20 /* ZillaSlab-LightItalic.ttf */; };
+		DEFC9F141F759C4800C5CA20 /* ZillaSlab-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F0A1F759C4800C5CA20 /* ZillaSlab-Medium.ttf */; };
+		DEFC9F151F759C4800C5CA20 /* ZillaSlab-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F0B1F759C4800C5CA20 /* ZillaSlab-MediumItalic.ttf */; };
+		DEFC9F161F759C4800C5CA20 /* ZillaSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F0C1F759C4800C5CA20 /* ZillaSlab-Regular.ttf */; };
+		DEFC9F171F759C4800C5CA20 /* ZillaSlab-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F0D1F759C4800C5CA20 /* ZillaSlab-SemiBold.ttf */; };
+		DEFC9F181F759C4800C5CA20 /* ZillaSlab-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F0E1F759C4800C5CA20 /* ZillaSlab-SemiBoldItalic.ttf */; };
+		DEFC9F1A1F759E4700C5CA20 /* Step2View.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F191F759E4700C5CA20 /* Step2View.xib */; };
+		DEFC9F1C1F759ED100C5CA20 /* Step3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F1B1F759ED100C5CA20 /* Step3View.xib */; };
+		DEFC9F1E1F759F6800C5CA20 /* Step4View.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F1D1F759F6800C5CA20 /* Step4View.xib */; };
+		DEFC9F201F75A36200C5CA20 /* Setup.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F1F1F75A36200C5CA20 /* Setup.xib */; };
+		DEFC9F221F75A5A100C5CA20 /* SetupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9F211F75A5A100C5CA20 /* SetupController.swift */; };
+		DEFC9F241F75A84800C5CA20 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9F231F75A84800C5CA20 /* UIView+Anchors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -575,6 +601,32 @@
 		CE5EFDD51F3935BF001A21C1 /* BRSendBCHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSendBCHViewController.h; sourceTree = "<group>"; };
 		CE5EFDD61F3935BF001A21C1 /* BRSendBCHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRSendBCHViewController.m; sourceTree = "<group>"; };
 		CE5EFDD91F3A87DC001A21C1 /* BCHSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCHSender.swift; sourceTree = "<group>"; };
+		DEFC9EE61F756A7C00C5CA20 /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Login.xib; path = PivxNibs/Controllers/Login.xib; sourceTree = "<group>"; };
+		DEFC9EE91F756B3400C5CA20 /* Pivx.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pivx.xcassets; sourceTree = "<group>"; };
+		DEFC9EEC1F756C0A00C5CA20 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = PivxControllers/LoginController.swift; sourceTree = "<group>"; };
+		DEFC9EEE1F756CB100C5CA20 /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseController.swift; path = PivxControllers/BaseController.swift; sourceTree = "<group>"; };
+		DEFC9EF61F757C2C00C5CA20 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = PivxUtils/Constants.swift; sourceTree = "<group>"; };
+		DEFC9EF81F757CAB00C5CA20 /* PivxExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PivxExtensions.swift; path = PivxUtils/PivxExtensions.swift; sourceTree = "<group>"; };
+		DEFC9EFA1F75834500C5CA20 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = PivxUtils/Utils.swift; sourceTree = "<group>"; };
+		DEFC9EFC1F75896300C5CA20 /* RestoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestoreController.swift; path = PivxControllers/RestoreController.swift; sourceTree = "<group>"; };
+		DEFC9EFE1F75899E00C5CA20 /* Restore.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Restore.xib; path = PivxNibs/Controllers/Restore.xib; sourceTree = "<group>"; };
+		DEFC9F011F75975900C5CA20 /* Step1View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Step1View.xib; path = PivxNibs/Views/Step1View.xib; sourceTree = "<group>"; };
+		DEFC9F051F759C4800C5CA20 /* ZillaSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-Bold.ttf"; sourceTree = "<group>"; };
+		DEFC9F061F759C4800C5CA20 /* ZillaSlab-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DEFC9F071F759C4800C5CA20 /* ZillaSlab-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-Italic.ttf"; sourceTree = "<group>"; };
+		DEFC9F081F759C4800C5CA20 /* ZillaSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-Light.ttf"; sourceTree = "<group>"; };
+		DEFC9F091F759C4800C5CA20 /* ZillaSlab-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-LightItalic.ttf"; sourceTree = "<group>"; };
+		DEFC9F0A1F759C4800C5CA20 /* ZillaSlab-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-Medium.ttf"; sourceTree = "<group>"; };
+		DEFC9F0B1F759C4800C5CA20 /* ZillaSlab-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-MediumItalic.ttf"; sourceTree = "<group>"; };
+		DEFC9F0C1F759C4800C5CA20 /* ZillaSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-Regular.ttf"; sourceTree = "<group>"; };
+		DEFC9F0D1F759C4800C5CA20 /* ZillaSlab-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-SemiBold.ttf"; sourceTree = "<group>"; };
+		DEFC9F0E1F759C4800C5CA20 /* ZillaSlab-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ZillaSlab-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		DEFC9F191F759E4700C5CA20 /* Step2View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Step2View.xib; path = PivxNibs/Views/Step2View.xib; sourceTree = "<group>"; };
+		DEFC9F1B1F759ED100C5CA20 /* Step3View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Step3View.xib; path = PivxNibs/Views/Step3View.xib; sourceTree = "<group>"; };
+		DEFC9F1D1F759F6800C5CA20 /* Step4View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Step4View.xib; path = PivxNibs/Views/Step4View.xib; sourceTree = "<group>"; };
+		DEFC9F1F1F75A36200C5CA20 /* Setup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Setup.xib; path = PivxNibs/Controllers/Setup.xib; sourceTree = "<group>"; };
+		DEFC9F211F75A5A100C5CA20 /* SetupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetupController.swift; path = PivxControllers/SetupController.swift; sourceTree = "<group>"; };
+		DEFC9F231F75A84800C5CA20 /* UIView+Anchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Anchors.swift"; path = "PivxUtils/UIView+Anchors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -974,6 +1026,11 @@
 		75D5F3C7191EC270004AB296 /* BreadWallet */ = {
 			isa = PBXGroup;
 			children = (
+				DEFC9EE91F756B3400C5CA20 /* Pivx.xcassets */,
+				DEFC9F031F759B7F00C5CA20 /* PivxFonts */,
+				DEFC9EF11F75790700C5CA20 /* PivxUtils */,
+				DEFC9EE51F7569F100C5CA20 /* PivxNibs */,
+				DEFC9EEB1F756BBA00C5CA20 /* PivxControllers */,
 				BAC7B6BF1BD9C2B500165B84 /* AppleWatch */,
 				752E289C19234A4700DB5A3C /* Models */,
 				752E289B19234A3F00DB5A3C /* Views */,
@@ -1104,6 +1161,83 @@
 				BAE12BEA1B2DEE7F00895CC5 /* Info.plist */,
 			);
 			path = TodayExtension;
+			sourceTree = "<group>";
+		};
+		DEFC9EE51F7569F100C5CA20 /* PivxNibs */ = {
+			isa = PBXGroup;
+			children = (
+				DEFC9F001F75953300C5CA20 /* Views */,
+				DEFC9EE81F756A8600C5CA20 /* Controllers */,
+			);
+			name = PivxNibs;
+			sourceTree = "<group>";
+		};
+		DEFC9EE81F756A8600C5CA20 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DEFC9EE61F756A7C00C5CA20 /* Login.xib */,
+				DEFC9EFE1F75899E00C5CA20 /* Restore.xib */,
+				DEFC9F1F1F75A36200C5CA20 /* Setup.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DEFC9EEB1F756BBA00C5CA20 /* PivxControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DEFC9EEC1F756C0A00C5CA20 /* LoginController.swift */,
+				DEFC9EEE1F756CB100C5CA20 /* BaseController.swift */,
+				DEFC9EFC1F75896300C5CA20 /* RestoreController.swift */,
+				DEFC9F211F75A5A100C5CA20 /* SetupController.swift */,
+			);
+			name = PivxControllers;
+			sourceTree = "<group>";
+		};
+		DEFC9EF11F75790700C5CA20 /* PivxUtils */ = {
+			isa = PBXGroup;
+			children = (
+				DEFC9EF61F757C2C00C5CA20 /* Constants.swift */,
+				DEFC9EF81F757CAB00C5CA20 /* PivxExtensions.swift */,
+				DEFC9EFA1F75834500C5CA20 /* Utils.swift */,
+				DEFC9F231F75A84800C5CA20 /* UIView+Anchors.swift */,
+			);
+			name = PivxUtils;
+			sourceTree = "<group>";
+		};
+		DEFC9F001F75953300C5CA20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEFC9F011F75975900C5CA20 /* Step1View.xib */,
+				DEFC9F191F759E4700C5CA20 /* Step2View.xib */,
+				DEFC9F1B1F759ED100C5CA20 /* Step3View.xib */,
+				DEFC9F1D1F759F6800C5CA20 /* Step4View.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DEFC9F031F759B7F00C5CA20 /* PivxFonts */ = {
+			isa = PBXGroup;
+			children = (
+				DEFC9F041F759C4800C5CA20 /* ZillaSlab */,
+			);
+			name = PivxFonts;
+			sourceTree = "<group>";
+		};
+		DEFC9F041F759C4800C5CA20 /* ZillaSlab */ = {
+			isa = PBXGroup;
+			children = (
+				DEFC9F051F759C4800C5CA20 /* ZillaSlab-Bold.ttf */,
+				DEFC9F061F759C4800C5CA20 /* ZillaSlab-BoldItalic.ttf */,
+				DEFC9F071F759C4800C5CA20 /* ZillaSlab-Italic.ttf */,
+				DEFC9F081F759C4800C5CA20 /* ZillaSlab-Light.ttf */,
+				DEFC9F091F759C4800C5CA20 /* ZillaSlab-LightItalic.ttf */,
+				DEFC9F0A1F759C4800C5CA20 /* ZillaSlab-Medium.ttf */,
+				DEFC9F0B1F759C4800C5CA20 /* ZillaSlab-MediumItalic.ttf */,
+				DEFC9F0C1F759C4800C5CA20 /* ZillaSlab-Regular.ttf */,
+				DEFC9F0D1F759C4800C5CA20 /* ZillaSlab-SemiBold.ttf */,
+				DEFC9F0E1F759C4800C5CA20 /* ZillaSlab-SemiBoldItalic.ttf */,
+			);
+			path = ZillaSlab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1349,15 +1483,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEFC9F021F75975900C5CA20 /* Step1View.xib in Resources */,
+				DEFC9F1E1F759F6800C5CA20 /* Step4View.xib in Resources */,
+				DEFC9F111F759C4800C5CA20 /* ZillaSlab-Italic.ttf in Resources */,
+				DEFC9EFF1F75899E00C5CA20 /* Restore.xib in Resources */,
+				DEFC9F161F759C4800C5CA20 /* ZillaSlab-Regular.ttf in Resources */,
 				75D5F3E0191EC270004AB296 /* Images.xcassets in Resources */,
+				DEFC9F131F759C4800C5CA20 /* ZillaSlab-LightItalic.ttf in Resources */,
+				DEFC9F121F759C4800C5CA20 /* ZillaSlab-Light.ttf in Resources */,
+				DEFC9F201F75A36200C5CA20 /* Setup.xib in Resources */,
+				DEFC9F1C1F759ED100C5CA20 /* Step3View.xib in Resources */,
 				22FBC9701CE3A9D5009578B7 /* bread-buy.tar in Resources */,
+				DEFC9F171F759C4800C5CA20 /* ZillaSlab-SemiBold.ttf in Resources */,
 				757E09991ADB8EEB006FD352 /* Localizable.strings in Resources */,
+				DEFC9F151F759C4800C5CA20 /* ZillaSlab-MediumItalic.ttf in Resources */,
 				75F2E0D31BE9803900EAE861 /* Launch Screen.storyboard in Resources */,
 				75C0E3BF1B1BA294007BC531 /* BIP39Words.plist in Resources */,
+				DEFC9F181F759C4800C5CA20 /* ZillaSlab-SemiBoldItalic.ttf in Resources */,
 				75E83CF61B5F997A0038FB70 /* coinflip.aiff in Resources */,
+				DEFC9F1A1F759E4700C5CA20 /* Step2View.xib in Resources */,
 				755FC9ED1BF1DF1B00164ABB /* BREventConfirmView.xib in Resources */,
 				752E28F719235B3000DB5A3C /* FixedPeers.plist in Resources */,
 				75D5F3DE191EC270004AB296 /* Main.storyboard in Resources */,
+				DEFC9EEA1F756B3400C5CA20 /* Pivx.xcassets in Resources */,
+				DEFC9F0F1F759C4800C5CA20 /* ZillaSlab-Bold.ttf in Resources */,
+				DEFC9F141F759C4800C5CA20 /* ZillaSlab-Medium.ttf in Resources */,
+				DEFC9EE71F756A7C00C5CA20 /* Login.xib in Resources */,
+				DEFC9F101F759C4800C5CA20 /* ZillaSlab-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1430,6 +1582,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				752874FE1F393391002167CC /* BRBIP38Key.c in Sources */,
+				DEFC9F241F75A84800C5CA20 /* UIView+Anchors.swift in Sources */,
 				2230E2441D610D9A001EF2E9 /* BRCoding.swift in Sources */,
 				22F04A001C9714EF00F137D8 /* BRUserDefaultsSwitchCell.m in Sources */,
 				752E28AA19234AE300DB5A3C /* BRAddressEntity.m in Sources */,
@@ -1443,20 +1596,24 @@
 				752E28AD19234AE300DB5A3C /* BRTransactionEntity.m in Sources */,
 				752875061F393391002167CC /* BRPeerManager.c in Sources */,
 				752E28AE19234AE300DB5A3C /* BRTxInputEntity.m in Sources */,
+				DEFC9EFD1F75896300C5CA20 /* RestoreController.swift in Sources */,
 				752E28AF19234AE300DB5A3C /* BRTxOutputEntity.m in Sources */,
 				22DE8CF11D02407F007F07F3 /* BRWalletConstants.m in Sources */,
 				BAA4843C1B3EFFAF0075C749 /* UIImage+Utils.m in Sources */,
 				2292799F1C695D2800C98E78 /* BRTar.swift in Sources */,
 				229279A81C6960FC00C98E78 /* BRGeoLocationPlugin.swift in Sources */,
+				DEFC9EED1F756C0A00C5CA20 /* LoginController.swift in Sources */,
 				BA7B535C1BDBC36700355E8D /* BRTransaction+Utils.m in Sources */,
 				758DBD0E1980634900389E2A /* BRTxDetailViewController.m in Sources */,
 				7548CF3719556FD700EF827F /* BRCopyLabel.m in Sources */,
 				229279A11C695D7900C98E78 /* BRBSPatch.swift in Sources */,
+				DEFC9F221F75A5A100C5CA20 /* SetupController.swift in Sources */,
 				752E28D119234C3600DB5A3C /* BRKey.m in Sources */,
 				84F68C8A1975E9E2002FC300 /* BRScanViewController.m in Sources */,
 				2204604E1B9F61E600D07B61 /* BREventManager.m in Sources */,
 				752E28D219234C3600DB5A3C /* BRKey+BIP38.m in Sources */,
 				220128D71C76E4F30001CAC1 /* BRWalletPlugin.swift in Sources */,
+				DEFC9EFB1F75834500C5CA20 /* Utils.swift in Sources */,
 				220460551BA0BEEE00D07B61 /* BREventConfirmView.m in Sources */,
 				752E28D919234C3600DB5A3C /* BRTransaction.m in Sources */,
 				752E28CE19234C3600DB5A3C /* BRBIP32Sequence.m in Sources */,
@@ -1474,6 +1631,7 @@
 				752E28DB19234C3600DB5A3C /* BRWalletManager.m in Sources */,
 				752E28D319234C3600DB5A3C /* BRMerkleBlock.m in Sources */,
 				22331F441D60312F00F29551 /* BRKVStoreObjects.swift in Sources */,
+				DEFC9EEF1F756CB100C5CA20 /* BaseController.swift in Sources */,
 				752875031F393391002167CC /* BRMerkleBlock.c in Sources */,
 				222040C41C1A0903005CE1C3 /* BRWebViewController.swift in Sources */,
 				752E28D019234C3600DB5A3C /* BRBloomFilter.m in Sources */,
@@ -1491,6 +1649,7 @@
 				75F2E0D61BEAA6A400EAE861 /* BRTxMetadataEntity.m in Sources */,
 				75878BC1192AEC3F002505AB /* BRReceiveViewController.m in Sources */,
 				752875071F393391002167CC /* BRSet.c in Sources */,
+				DEFC9EF91F757CAB00C5CA20 /* PivxExtensions.swift in Sources */,
 				75878BBF192ACD46002505AB /* BRAmountViewController.m in Sources */,
 				759816E719357D6F005060EA /* BRBubbleView.m in Sources */,
 				752875021F393391002167CC /* BRKey.c in Sources */,
@@ -1521,6 +1680,7 @@
 				752E28F119234E8100DB5A3C /* Reachability.m in Sources */,
 				752874FC1F393391002167CC /* BRBase58.c in Sources */,
 				752875011F393391002167CC /* BRCrypto.c in Sources */,
+				DEFC9EF71F757C2C00C5CA20 /* Constants.swift in Sources */,
 				22FF2C381BED381400B36384 /* BRAPIClient.swift in Sources */,
 				75D5F3CE191EC270004AB296 /* main.m in Sources */,
 			);
@@ -1890,7 +2050,7 @@
 					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = BreadWallet/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_SWIFT_FLAGS[arch=*]" = "-DDebug";
 				PRODUCT_BUNDLE_IDENTIFIER = org.voisine.breadwallet.ger;
@@ -1921,7 +2081,7 @@
 					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = BreadWallet/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.voisine.breadwallet.ger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2163,7 +2323,7 @@
 					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = BreadWallet/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DTestflight";
 				PRODUCT_BUNDLE_IDENTIFIER = org.voisine.breadwallet.ger;

@@ -2,10 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ZillaSlab-Bold</string>
+		<string>ZillaSlab-BoldItalic</string>
+		<string>ZillaSlab-Italic</string>
+		<string>ZillaSlab-Light</string>
+		<string>ZillaSlab-LightItalic</string>
+		<string>ZillaSlab-Medium</string>
+		<string>ZillaSlab-MediumItalic</string>
+		<string>ZillaSlab-Regular</string>
+		<string>ZillaSlab-SemiBold</string>
+		<string>ZillaSlab-SemiBoldItalic</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>ƀread</string>
+	<string>PIVX</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -111,7 +124,7 @@
 	<key>UILaunchStoryboardName</key>
 	<string>Launch Screen</string>
 	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
+	<string>Launch Screen</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

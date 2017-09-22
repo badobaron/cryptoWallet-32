@@ -23,6 +23,7 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
+
 #import "BRAppDelegate.h"
 #import "BRPeerManager.h"
 #import "BRWalletManager.h"
@@ -40,6 +41,7 @@
 #pragma message "snapshot build"
 #endif
 
+
 @interface BRAppDelegate () <PKPushRegistryDelegate>
 
 // the nsnotificationcenter observer for wallet balance
@@ -54,50 +56,68 @@
 
 @implementation BRAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (void)initializeBreadWallet:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-
+    
     // use background fetch to stay synced with the blockchain
     [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
-
+    
     UIPageControl.appearance.pageIndicatorTintColor = [UIColor lightGrayColor];
     UIPageControl.appearance.currentPageIndicatorTintColor = [UIColor blackColor];
-
+    
     [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil]
      setTitleTextAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"HelveticaNeue-Light" size:17.0]}
      forState:UIControlStateNormal];
-
+    
     if (launchOptions[UIApplicationLaunchOptionsURLKey]) {
         NSData *file = [NSData dataWithContentsOfURL:launchOptions[UIApplicationLaunchOptionsURLKey]];
-
+        
         if (file.length > 0) {
             [[NSNotificationCenter defaultCenter] postNotificationName:BRFileNotification object:nil
-             userInfo:@{@"file":file}];
+                                                              userInfo:@{@"file":file}];
         }
     }
-
+    
     // start the event manager
     [[BREventManager sharedEventManager] up];
-
+    
     //TODO: bitcoin protocol/payment protocol over multipeer connectivity
-
+    
     //TODO: accessibility for the visually impaired
-
+    
     //TODO: fast wallet restore using webservice and/or utxo p2p message
-
+    
     //TODO: ask user if they need to sweep to a new wallet when restoring because it was compromised
-
+    
     //TODO: figure out deterministic builds/removing app sigs: http://www.afp548.com/2012/06/05/re-signining-ios-apps/
-
+    
     //TODO: implement importing of private keys split with shamir's secret sharing:
     //      https://github.com/cetuscetus/btctool/blob/bip/bip-xxxx.mediawiki
-
+    
     [BRPhoneWCSessionManager sharedInstance];
     
     // observe balance and create notifications
     [self setupBalanceNotification:application];
     [self setupPreferenceDefaults];
+}
+
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    
+    NSLog(@"starting app");
+    NSLog(@"BOUNDS %f",UIScreen.mainScreen.bounds.size.width);
+    LoginController *controller = [[LoginController alloc] initWithNibName:@"Login" bundle:nil];
+    UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:controller];
+    
+    [Utils configureNavigationBar];
+    
+    _window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    _window.rootViewController = navigation;
+    [_window makeKeyAndVisible];
+    
+    [Utils configureNavigationBar];
+    //[self initializeBreadWallet:application didFinishLaunchingWithOptions:launchOptions];
     return YES;
 }
 
