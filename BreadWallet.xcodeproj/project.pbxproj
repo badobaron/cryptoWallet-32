@@ -182,6 +182,8 @@
 		DEFC9F201F75A36200C5CA20 /* Setup.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F1F1F75A36200C5CA20 /* Setup.xib */; };
 		DEFC9F221F75A5A100C5CA20 /* SetupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9F211F75A5A100C5CA20 /* SetupController.swift */; };
 		DEFC9F241F75A84800C5CA20 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9F231F75A84800C5CA20 /* UIView+Anchors.swift */; };
+		DEFC9F261F788E6200C5CA20 /* PinCode.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F251F788E6200C5CA20 /* PinCode.xib */; };
+		DEFC9F281F78951300C5CA20 /* PinCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9F271F78951300C5CA20 /* PinCodeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -627,6 +629,8 @@
 		DEFC9F1F1F75A36200C5CA20 /* Setup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Setup.xib; path = PivxNibs/Controllers/Setup.xib; sourceTree = "<group>"; };
 		DEFC9F211F75A5A100C5CA20 /* SetupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetupController.swift; path = PivxControllers/SetupController.swift; sourceTree = "<group>"; };
 		DEFC9F231F75A84800C5CA20 /* UIView+Anchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Anchors.swift"; path = "PivxUtils/UIView+Anchors.swift"; sourceTree = "<group>"; };
+		DEFC9F251F788E6200C5CA20 /* PinCode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PinCode.xib; path = PivxNibs/Controllers/PinCode.xib; sourceTree = "<group>"; };
+		DEFC9F271F78951300C5CA20 /* PinCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinCodeController.swift; path = PivxControllers/PinCodeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1178,6 +1182,7 @@
 				DEFC9EE61F756A7C00C5CA20 /* Login.xib */,
 				DEFC9EFE1F75899E00C5CA20 /* Restore.xib */,
 				DEFC9F1F1F75A36200C5CA20 /* Setup.xib */,
+				DEFC9F251F788E6200C5CA20 /* PinCode.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -1189,6 +1194,7 @@
 				DEFC9EEE1F756CB100C5CA20 /* BaseController.swift */,
 				DEFC9EFC1F75896300C5CA20 /* RestoreController.swift */,
 				DEFC9F211F75A5A100C5CA20 /* SetupController.swift */,
+				DEFC9F271F78951300C5CA20 /* PinCodeController.swift */,
 			);
 			name = PivxControllers;
 			sourceTree = "<group>";
@@ -1501,6 +1507,7 @@
 				75C0E3BF1B1BA294007BC531 /* BIP39Words.plist in Resources */,
 				DEFC9F181F759C4800C5CA20 /* ZillaSlab-SemiBoldItalic.ttf in Resources */,
 				75E83CF61B5F997A0038FB70 /* coinflip.aiff in Resources */,
+				DEFC9F261F788E6200C5CA20 /* PinCode.xib in Resources */,
 				DEFC9F1A1F759E4700C5CA20 /* Step2View.xib in Resources */,
 				755FC9ED1BF1DF1B00164ABB /* BREventConfirmView.xib in Resources */,
 				752E28F719235B3000DB5A3C /* FixedPeers.plist in Resources */,
@@ -1646,6 +1653,7 @@
 				752E28D519234C3600DB5A3C /* BRPaymentRequest.m in Sources */,
 				7525B619192453840041C0F2 /* BRNavigationBar.m in Sources */,
 				2292799C1C695CD600C98E78 /* BRHTTPRouter.swift in Sources */,
+				DEFC9F281F78951300C5CA20 /* PinCodeController.swift in Sources */,
 				75F2E0D61BEAA6A400EAE861 /* BRTxMetadataEntity.m in Sources */,
 				75878BC1192AEC3F002505AB /* BRReceiveViewController.m in Sources */,
 				752875071F393391002167CC /* BRSet.c in Sources */,

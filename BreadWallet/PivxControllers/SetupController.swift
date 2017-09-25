@@ -36,11 +36,16 @@ class SetupController: BaseController {
     override func setupNavigationBar() {
         navigationController?.setNavigationBarHidden(true, animated: true)
     }
+    
+    func toPinCode(){
+        let controller = PinCodeController(nibName:"PinCode", bundle:nil)
+        navigationController?.show(controller, sender: nil)
+    }
 
     @IBAction func tappedSkipButton(_ sender: Any) {
-        
+        toPinCode()
     }
     @IBAction func tappedNextButton(_ sender: Any) {
-        
+        toPinCode()
     }
 }
