@@ -156,6 +156,12 @@
 		CE5EFDD41F392F36001A21C1 /* BRAdvancedSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EFDD31F392F36001A21C1 /* BRAdvancedSettingsViewController.m */; };
 		CE5EFDD71F3935BF001A21C1 /* BRSendBCHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EFDD61F3935BF001A21C1 /* BRSendBCHViewController.m */; };
 		CE5EFDDA1F3A87DC001A21C1 /* BCHSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EFDD91F3A87DC001A21C1 /* BCHSender.swift */; };
+		DEB328A81F79FB4400AC9681 /* Menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328A71F79FB4400AC9681 /* Menu.xib */; };
+		DEB328AA1F7A0B5200AC9681 /* MyWallet.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328A91F7A0B5200AC9681 /* MyWallet.xib */; };
+		DEB328AC1F7A0E7700AC9681 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328AB1F7A0E7700AC9681 /* MenuController.swift */; };
+		DEB328AE1F7A103700AC9681 /* MyWalletController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328AD1F7A103700AC9681 /* MyWalletController.swift */; };
+		DEB328B11F7A172B00AC9681 /* Donation.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328B01F7A172B00AC9681 /* Donation.xib */; };
+		DEB328B31F7A196200AC9681 /* DonationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328B21F7A196200AC9681 /* DonationController.swift */; };
 		DEFC9EE71F756A7C00C5CA20 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9EE61F756A7C00C5CA20 /* Login.xib */; };
 		DEFC9EEA1F756B3400C5CA20 /* Pivx.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9EE91F756B3400C5CA20 /* Pivx.xcassets */; };
 		DEFC9EED1F756C0A00C5CA20 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9EEC1F756C0A00C5CA20 /* LoginController.swift */; };
@@ -184,6 +190,7 @@
 		DEFC9F241F75A84800C5CA20 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9F231F75A84800C5CA20 /* UIView+Anchors.swift */; };
 		DEFC9F261F788E6200C5CA20 /* PinCode.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9F251F788E6200C5CA20 /* PinCode.xib */; };
 		DEFC9F281F78951300C5CA20 /* PinCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9F271F78951300C5CA20 /* PinCodeController.swift */; };
+		E26EC285492DB5782E4A03B6 /* Pods_breadwallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FECD086C3FE502E4E7E398 /* Pods_breadwallet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -268,6 +275,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		053C2EF0D496876F483F1DF8 /* Pods-breadwallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breadwallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-breadwallet/Pods-breadwallet.release.xcconfig"; sourceTree = "<group>"; };
+		18D679BD1AEC57C504B2AC82 /* Pods-breadwallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breadwallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breadwallet/Pods-breadwallet.debug.xcconfig"; sourceTree = "<group>"; };
 		22005B951C9276AF00F87733 /* BRLinkPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRLinkPlugin.swift; sourceTree = "<group>"; };
 		220128D11C753C670001CAC1 /* BRSocketHelpers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRSocketHelpers.c; sourceTree = "<group>"; };
 		220128D21C753C670001CAC1 /* BRSocketHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSocketHelpers.h; sourceTree = "<group>"; };
@@ -559,6 +568,7 @@
 		75FD2FB11BFAB97200D56BBA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/BREventConfirmView.strings; sourceTree = "<group>"; };
 		75FD2FB31BFAB97500D56BBA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/BREventConfirmView.strings; sourceTree = "<group>"; };
 		75FD2FB51BFAB97A00D56BBA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/BREventConfirmView.strings; sourceTree = "<group>"; };
+		7A3B5B01DDF561ADC0F12B29 /* Pods-breadwallet.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breadwallet.testflight.xcconfig"; path = "Pods/Target Support Files/Pods-breadwallet/Pods-breadwallet.testflight.xcconfig"; sourceTree = "<group>"; };
 		84F68C881975E9E2002FC300 /* BRScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRScanViewController.h; sourceTree = "<group>"; };
 		84F68C891975E9E2002FC300 /* BRScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRScanViewController.m; sourceTree = "<group>"; };
 		BA4A72661BE11AFA00E39C01 /* BRAWWeakTimerTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRAWWeakTimerTarget.swift; sourceTree = "<group>"; };
@@ -598,11 +608,18 @@
 		BAE12BEA1B2DEE7F00895CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAE12C041B2DEEF700895CC5 /* BRTodayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTodayViewController.h; sourceTree = "<group>"; };
 		BAE12C051B2DEEF700895CC5 /* BRTodayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRTodayViewController.m; sourceTree = "<group>"; };
+		C6FECD086C3FE502E4E7E398 /* Pods_breadwallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breadwallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5EFDD21F392F36001A21C1 /* BRAdvancedSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRAdvancedSettingsViewController.h; sourceTree = "<group>"; };
 		CE5EFDD31F392F36001A21C1 /* BRAdvancedSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRAdvancedSettingsViewController.m; sourceTree = "<group>"; };
 		CE5EFDD51F3935BF001A21C1 /* BRSendBCHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSendBCHViewController.h; sourceTree = "<group>"; };
 		CE5EFDD61F3935BF001A21C1 /* BRSendBCHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRSendBCHViewController.m; sourceTree = "<group>"; };
 		CE5EFDD91F3A87DC001A21C1 /* BCHSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCHSender.swift; sourceTree = "<group>"; };
+		DEB328A71F79FB4400AC9681 /* Menu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Menu.xib; path = PivxNibs/Controllers/Menu.xib; sourceTree = "<group>"; };
+		DEB328A91F7A0B5200AC9681 /* MyWallet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyWallet.xib; path = PivxNibs/Controllers/MyWallet.xib; sourceTree = "<group>"; };
+		DEB328AB1F7A0E7700AC9681 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuController.swift; path = PivxControllers/MenuController.swift; sourceTree = "<group>"; };
+		DEB328AD1F7A103700AC9681 /* MyWalletController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyWalletController.swift; path = PivxControllers/MyWalletController.swift; sourceTree = "<group>"; };
+		DEB328B01F7A172B00AC9681 /* Donation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Donation.xib; path = PivxNibs/Controllers/Donation.xib; sourceTree = "<group>"; };
+		DEB328B21F7A196200AC9681 /* DonationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DonationController.swift; path = PivxControllers/DonationController.swift; sourceTree = "<group>"; };
 		DEFC9EE61F756A7C00C5CA20 /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Login.xib; path = PivxNibs/Controllers/Login.xib; sourceTree = "<group>"; };
 		DEFC9EE91F756B3400C5CA20 /* Pivx.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pivx.xcassets; sourceTree = "<group>"; };
 		DEFC9EEC1F756C0A00C5CA20 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = PivxControllers/LoginController.swift; sourceTree = "<group>"; };
@@ -652,10 +669,18 @@
 				222E7F561C46E9B8009AB45D /* Security.framework in Frameworks */,
 				222040C61C1A1940005CE1C3 /* WebKit.framework in Frameworks */,
 				22B6A4481C0E963900673913 /* libbz2.tbd in Frameworks */,
+				E26EC285492DB5782E4A03B6 /* Pods_breadwallet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		75D5F3E2191EC270004AB296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F31F232884B8CEC890AC722 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -732,6 +757,16 @@
 				75EDC0E61CD92CE00090B838 /* BreadWalletUITests-Bridging-Header.h */,
 			);
 			path = BreadWalletUITests;
+			sourceTree = "<group>";
+		};
+		4B1CF442435A358B476B03D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18D679BD1AEC57C504B2AC82 /* Pods-breadwallet.debug.xcconfig */,
+				053C2EF0D496876F483F1DF8 /* Pods-breadwallet.release.xcconfig */,
+				7A3B5B01DDF561ADC0F12B29 /* Pods-breadwallet.testflight.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		752874D91F393340002167CC /* breadwallet-core */ = {
@@ -992,6 +1027,7 @@
 				BA913BEE1BD57E4D005A7C0E /* WatchApp Extension */,
 				75D5F3C0191EC270004AB296 /* Frameworks */,
 				75D5F3BF191EC270004AB296 /* Products */,
+				4B1CF442435A358B476B03D4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1023,6 +1059,7 @@
 				BA7B53671BDBD07F00355E8D /* UIKit.framework */,
 				BA7B53651BDBD04F00355E8D /* CoreGraphics.framework */,
 				BAE12BE61B2DEE7F00895CC5 /* NotificationCenter.framework */,
+				C6FECD086C3FE502E4E7E398 /* Pods_breadwallet.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1183,6 +1220,9 @@
 				DEFC9EFE1F75899E00C5CA20 /* Restore.xib */,
 				DEFC9F1F1F75A36200C5CA20 /* Setup.xib */,
 				DEFC9F251F788E6200C5CA20 /* PinCode.xib */,
+				DEB328A71F79FB4400AC9681 /* Menu.xib */,
+				DEB328A91F7A0B5200AC9681 /* MyWallet.xib */,
+				DEB328B01F7A172B00AC9681 /* Donation.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -1195,6 +1235,9 @@
 				DEFC9EFC1F75896300C5CA20 /* RestoreController.swift */,
 				DEFC9F211F75A5A100C5CA20 /* SetupController.swift */,
 				DEFC9F271F78951300C5CA20 /* PinCodeController.swift */,
+				DEB328AB1F7A0E7700AC9681 /* MenuController.swift */,
+				DEB328AD1F7A103700AC9681 /* MyWalletController.swift */,
+				DEB328B21F7A196200AC9681 /* DonationController.swift */,
 			);
 			name = PivxControllers;
 			sourceTree = "<group>";
@@ -1288,12 +1331,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75D5F3F6191EC270004AB296 /* Build configuration list for PBXNativeTarget "breadwallet" */;
 			buildPhases = (
+				B90486C6C485410FF41675A9 /* [CP] Check Pods Manifest.lock */,
 				75D5F3BA191EC270004AB296 /* Sources */,
 				75D5F3BB191EC270004AB296 /* Frameworks */,
 				75D5F3BC191EC270004AB296 /* Resources */,
 				BAE12BF71B2DEE7F00895CC5 /* Embed App Extensions */,
 				BA913C021BD57E4E005A7C0E /* Embed Watch Content */,
 				CEE253DB1E26B3B400A25B15 /* Icon Versioning */,
+				FE11234C36C4F371356A4192 /* [CP] Embed Pods Frameworks */,
+				443A31A01037742378B620A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1331,6 +1377,7 @@
 			buildPhases = (
 				BA913BDC1BD57E4D005A7C0E /* Resources */,
 				BA913C001BD57E4E005A7C0E /* Embed App Extensions */,
+				7F31F232884B8CEC890AC722 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1495,7 +1542,10 @@
 				DEFC9EFF1F75899E00C5CA20 /* Restore.xib in Resources */,
 				DEFC9F161F759C4800C5CA20 /* ZillaSlab-Regular.ttf in Resources */,
 				75D5F3E0191EC270004AB296 /* Images.xcassets in Resources */,
+				DEB328AA1F7A0B5200AC9681 /* MyWallet.xib in Resources */,
 				DEFC9F131F759C4800C5CA20 /* ZillaSlab-LightItalic.ttf in Resources */,
+				DEB328B11F7A172B00AC9681 /* Donation.xib in Resources */,
+				DEB328A81F79FB4400AC9681 /* Menu.xib in Resources */,
 				DEFC9F121F759C4800C5CA20 /* ZillaSlab-Light.ttf in Resources */,
 				DEFC9F201F75A36200C5CA20 /* Setup.xib in Resources */,
 				DEFC9F1C1F759ED100C5CA20 /* Step3View.xib in Resources */,
@@ -1557,6 +1607,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		443A31A01037742378B620A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-breadwallet/Pods-breadwallet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B90486C6C485410FF41675A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		CEE253DB1E26B3B400A25B15 /* Icon Versioning */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1570,6 +1650,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/scripts/icon_versioning.sh\"";
+		};
+		FE11234C36C4F371356A4192 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-breadwallet/Pods-breadwallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1612,10 +1707,12 @@
 				DEFC9EED1F756C0A00C5CA20 /* LoginController.swift in Sources */,
 				BA7B535C1BDBC36700355E8D /* BRTransaction+Utils.m in Sources */,
 				758DBD0E1980634900389E2A /* BRTxDetailViewController.m in Sources */,
+				DEB328AC1F7A0E7700AC9681 /* MenuController.swift in Sources */,
 				7548CF3719556FD700EF827F /* BRCopyLabel.m in Sources */,
 				229279A11C695D7900C98E78 /* BRBSPatch.swift in Sources */,
 				DEFC9F221F75A5A100C5CA20 /* SetupController.swift in Sources */,
 				752E28D119234C3600DB5A3C /* BRKey.m in Sources */,
+				DEB328B31F7A196200AC9681 /* DonationController.swift in Sources */,
 				84F68C8A1975E9E2002FC300 /* BRScanViewController.m in Sources */,
 				2204604E1B9F61E600D07B61 /* BREventManager.m in Sources */,
 				752E28D219234C3600DB5A3C /* BRKey+BIP38.m in Sources */,
@@ -1654,6 +1751,7 @@
 				7525B619192453840041C0F2 /* BRNavigationBar.m in Sources */,
 				2292799C1C695CD600C98E78 /* BRHTTPRouter.swift in Sources */,
 				DEFC9F281F78951300C5CA20 /* PinCodeController.swift in Sources */,
+				DEB328AE1F7A103700AC9681 /* MyWalletController.swift in Sources */,
 				75F2E0D61BEAA6A400EAE861 /* BRTxMetadataEntity.m in Sources */,
 				75878BC1192AEC3F002505AB /* BRReceiveViewController.m in Sources */,
 				752875071F393391002167CC /* BRSet.c in Sources */,
@@ -2041,6 +2139,7 @@
 		};
 		75D5F3F7191EC270004AB296 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D679BD1AEC57C504B2AC82 /* Pods-breadwallet.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2072,6 +2171,7 @@
 		};
 		75D5F3F8191EC270004AB296 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053C2EF0D496876F483F1DF8 /* Pods-breadwallet.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2313,6 +2413,7 @@
 		};
 		CEE253D31E26A9BC00A25B15 /* Testflight */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3B5B01DDF561ADC0F12B29 /* Pods-breadwallet.testflight.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

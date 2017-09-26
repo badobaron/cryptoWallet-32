@@ -14,9 +14,12 @@ class SetupController: BaseController {
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var pageControl: UIPageControl!
+    var currentPage = 0
     
     override func setup() {
+        scrollView.delegate = self
         scrollView.isPagingEnabled = true
+        scrollView.showsHorizontalScrollIndicator = false
         scrollViewHeightConstraint.constant = K.main.width * 4
         guard let step1 = Bundle.main.loadNibNamed("Step1View", owner: self, options: nil)?.first as? UIView,
         let step2 = Bundle.main.loadNibNamed("Step2View", owner: self, options: nil)?.first as? UIView,
@@ -46,6 +49,22 @@ class SetupController: BaseController {
         toPinCode()
     }
     @IBAction func tappedNextButton(_ sender: Any) {
-        toPinCode()
+        if currentPage >= 3 {
+            toPinCode()
+            return
+        }
+        currentPage += 1
+        pageControl.currentPage = currentPage
+        scrollView.setContentOffset(CGPoint(x:K.main.width*CGFloat(currentPage),y:0), animated: true)
+    }
+}
+
+extension SetupController:UIScrollViewDelegate {
+    
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView){
+        let pageWidth:CGFloat = scrollView.frame.width
+        let currentPage:CGFloat = floor((scrollView.contentOffset.x-pageWidth/2)/pageWidth)+1
+        pageControl.currentPage = Int(currentPage);
+        self.currentPage = Int(currentPage);
     }
 }

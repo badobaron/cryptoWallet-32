@@ -18,8 +18,8 @@ class RestoreController: BaseController {
     @IBOutlet weak var passwordTextField: UITextField!
     
     override func setup() {
-        restoreButton.border(cornerRadius: 5, color: K.color.purple_r85b71g108)
-        containerView.border(cornerRadius: 5, color: K.color.gray_r207b208g209)
+        restoreButton.border(cornerRadius: 5, color: K.color.purple_r85g71b108)
+        containerView.border(cornerRadius: 5, color: K.color.gray_r207g208b209)
     }
     
     override func setupNavigationBar() {

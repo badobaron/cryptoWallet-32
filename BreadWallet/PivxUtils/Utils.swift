@@ -11,7 +11,9 @@ import UIKit
 class Utils: NSObject {
 
     static func configureNavigationBar(){
-        UINavigationBar.appearance().barTintColor = K.color.purple_r85b71g108
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for:.default)
+        UINavigationBar.appearance().shadowImage = UIImage()
+        UINavigationBar.appearance().barTintColor = K.color.purple_r85g71b108
         UINavigationBar.appearance().tintColor = .white
         UINavigationBar.appearance().isTranslucent = false
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white,
