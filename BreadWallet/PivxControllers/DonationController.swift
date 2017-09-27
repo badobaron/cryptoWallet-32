@@ -16,6 +16,12 @@ class DonationController: BaseController {
     override func setup(){
         donateButton.border(cornerRadius: 5, color: K.color.purple_r85g71b108)
     }
+    
+    override func setupNavigationBar() {
+        super.setupNavigationBar()
+        navigationItem.title = "Donations"
+        addMenuButton()
+    }
 
     @IBAction func tappedDonateButton(_ sender: Any) {
     }

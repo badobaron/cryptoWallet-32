@@ -19,14 +19,23 @@ class MenuController: BaseController {
     }
 
     @IBAction func tappedMyWalletButton(_ sender: Any) {
+        let controller = MyWalletController(nibName:"MyWallet", bundle:nil)
+        let navigation = UINavigationController(rootViewController: controller)
+        slideMenuController()?.changeMainViewController(navigation, close: true)
     }
     @IBAction func tappedAddressBookButton(_ sender: Any) {
+        let controller = AddressContactController()
+        let navigation = UINavigationController(rootViewController: controller)
+        slideMenuController()?.changeMainViewController(navigation, close: true)
     }
     @IBAction func tappedSettingButton(_ sender: Any) {
+        let controller = SettingController(nibName:"Setting", bundle:nil)
+        let navigation = UINavigationController(rootViewController: controller)
+        slideMenuController()?.changeMainViewController(navigation, close: true)
     }
     @IBAction func tappedDonationButton(_ sender: Any) {
         let controller = DonationController(nibName:"Donation", bundle:nil)
-        slideMenuController()?.mainViewController?.show(controller, sender: nil)
-        slideMenuController()?.closeLeft()
+        let navigation = UINavigationController(rootViewController: controller)
+        slideMenuController()?.changeMainViewController(navigation, close: true)
     }
 }

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RestoreWordController" customModule="breadwallet" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="pRU-MX-DeD" id="pM4-DC-fVo"/>
+                <outlet property="containerViewWidthConstraint" destination="niB-mT-CjW" id="AnA-xi-ZgA"/>
+                <outlet property="leftButton" destination="BvD-H6-zAy" id="ylX-c5-4nB"/>
+                <outlet property="rightButton" destination="C6M-3m-cLm" id="bhu-W2-dhJ"/>
+                <outlet property="scrollView" destination="Cvr-wm-fNB" id="igW-sV-lBT"/>
+                <outlet property="view" destination="iN0-l3-epB" id="FKd-WM-uKD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S8z-P3-1Gb">
+                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C6M-3m-cLm">
+                            <rect key="frame" x="259" y="0.0" width="100" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="Aay-FH-0a9"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                            <state key="normal" title="Next">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="tappedRightButton:" destination="-1" eventType="touchUpInside" id="G3o-7p-HFl"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvD-H6-zAy">
+                            <rect key="frame" x="16" y="0.0" width="100" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="Sn2-7Y-xCb"/>
+                            </constraints>
+                            <state key="normal" title="Back" image="icArrowBack">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="tappedLeftButton:" destination="-1" eventType="touchUpInside" id="agn-oE-c9H"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.58823529409999997" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="C6M-3m-cLm" secondAttribute="bottom" id="93Y-z0-pOy"/>
+                        <constraint firstItem="BvD-H6-zAy" firstAttribute="top" secondItem="S8z-P3-1Gb" secondAttribute="top" id="Ar7-Pm-klx"/>
+                        <constraint firstItem="BvD-H6-zAy" firstAttribute="leading" secondItem="S8z-P3-1Gb" secondAttribute="leading" constant="16" id="SjW-8O-cvT"/>
+                        <constraint firstAttribute="trailing" secondItem="C6M-3m-cLm" secondAttribute="trailing" constant="16" id="YHx-64-rbd"/>
+                        <constraint firstAttribute="height" constant="50" id="oeq-mP-cU0"/>
+                        <constraint firstItem="C6M-3m-cLm" firstAttribute="top" secondItem="S8z-P3-1Gb" secondAttribute="top" id="uWB-XA-dxB"/>
+                        <constraint firstAttribute="bottom" secondItem="BvD-H6-zAy" secondAttribute="bottom" id="wDS-Nj-umc"/>
+                    </constraints>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cvr-wm-fNB">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pRU-MX-DeD">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="375" id="niB-mT-CjW"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="pRU-MX-DeD" firstAttribute="centerY" secondItem="Cvr-wm-fNB" secondAttribute="centerY" priority="250" id="5au-EI-rbe"/>
+                        <constraint firstAttribute="trailing" secondItem="pRU-MX-DeD" secondAttribute="trailing" priority="250" id="Ifv-7X-1w6"/>
+                        <constraint firstAttribute="bottom" secondItem="pRU-MX-DeD" secondAttribute="bottom" id="J4w-Wv-oXM"/>
+                        <constraint firstItem="pRU-MX-DeD" firstAttribute="top" secondItem="Cvr-wm-fNB" secondAttribute="top" id="O9P-ws-RSa"/>
+                        <constraint firstItem="pRU-MX-DeD" firstAttribute="centerX" secondItem="Cvr-wm-fNB" secondAttribute="centerX" priority="250" id="aqY-tk-6qV"/>
+                        <constraint firstItem="pRU-MX-DeD" firstAttribute="leading" secondItem="Cvr-wm-fNB" secondAttribute="leading" id="zRl-D6-kEh"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Cvr-wm-fNB" secondAttribute="trailing" id="PfT-fw-SFB"/>
+                <constraint firstItem="S8z-P3-1Gb" firstAttribute="top" secondItem="Cvr-wm-fNB" secondAttribute="bottom" id="Xrt-Wc-dSa"/>
+                <constraint firstItem="S8z-P3-1Gb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hV1-D8-y6I"/>
+                <constraint firstAttribute="trailing" secondItem="S8z-P3-1Gb" secondAttribute="trailing" id="nKw-Wq-L7t"/>
+                <constraint firstItem="Cvr-wm-fNB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rXc-oF-IeP"/>
+                <constraint firstItem="Cvr-wm-fNB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="t3a-3O-oCm"/>
+                <constraint firstAttribute="bottom" secondItem="S8z-P3-1Gb" secondAttribute="bottom" id="vqa-Kn-l9z"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="icArrowBack" width="11" height="20"/>
+    </resources>
+</document>

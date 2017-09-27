@@ -26,6 +26,8 @@ class RestoreController: BaseController {
         super.setupNavigationBar()
         navigationItem.title = "Restore Wallet"
         navigationController?.setNavigationBarHidden(false, animated: true)
+        let optionButton = UIBarButtonItem(image: UIImage(named:"icMenuOptions"), style: .plain, target: self, action: #selector(tappedOptionButton))
+        navigationItem.rightBarButtonItem = optionButton
     }
 
     @IBAction func tappedShowPasswordButton(_ sender: Any) {
@@ -36,4 +38,24 @@ class RestoreController: BaseController {
         
     }
     
+    
+    func tappedOptionButton(){
+        let sheet = UIAlertController(title: "", message: nil, preferredStyle: .actionSheet)
+        
+        let cancelAction = UIAlertAction(title:"Cancel", style: .cancel, handler: nil)
+        
+        let restoreOption = UIAlertAction(title:"Restore from words", style: .default, handler: { action in
+            self.toRestoreWord()
+        })
+        
+        sheet.addAction(restoreOption)
+        sheet.addAction(cancelAction)
+        
+        present(sheet, animated: true, completion: nil)
+    }
+    
+    func toRestoreWord(){
+        let controller = RestoreWordController(nibName: "RestoreWord", bundle: nil)
+        navigationController?.show(controller, sender: nil)
+    }
 }

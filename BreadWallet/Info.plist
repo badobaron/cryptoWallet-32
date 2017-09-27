@@ -2,19 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>ZillaSlab-Bold</string>
-		<string>ZillaSlab-BoldItalic</string>
-		<string>ZillaSlab-Italic</string>
-		<string>ZillaSlab-Light</string>
-		<string>ZillaSlab-LightItalic</string>
-		<string>ZillaSlab-Medium</string>
-		<string>ZillaSlab-MediumItalic</string>
-		<string>ZillaSlab-Regular</string>
-		<string>ZillaSlab-SemiBold</string>
-		<string>ZillaSlab-SemiBoldItalic</string>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -116,6 +103,19 @@
 	<string>We will use your location to determine where you are. Your location will never be recorded or shared with anyone.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Unused</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ZillaSlab-Bold</string>
+		<string>ZillaSlab-BoldItalic</string>
+		<string>ZillaSlab-Italic</string>
+		<string>ZillaSlab-Light</string>
+		<string>ZillaSlab-LightItalic</string>
+		<string>ZillaSlab-Medium</string>
+		<string>ZillaSlab-MediumItalic</string>
+		<string>ZillaSlab-Regular</string>
+		<string>ZillaSlab-SemiBold</string>
+		<string>ZillaSlab-SemiBoldItalic</string>
+	</array>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>
@@ -130,7 +130,7 @@
 		<string>armv7</string>
 	</array>
 	<key>UIStatusBarHidden</key>
-	<true/>
+	<false/>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleLightContent</string>
 	<key>UISupportedInterfaceOrientations</key>

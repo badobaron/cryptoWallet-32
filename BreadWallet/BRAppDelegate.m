@@ -102,18 +102,13 @@
 }
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    
-    NSLog(@"starting app");
-    NSLog(@"BOUNDS %f",UIScreen.mainScreen.bounds.size.width);
-    LoginController *controller = [[LoginController alloc] initWithNibName:@"Login" bundle:nil];
-    UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:controller];
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [Utils configureNavigationBar];
     
+    
     _window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
-    _window.rootViewController = navigation;
+    _window.rootViewController = [Utils toHome];
     [_window makeKeyAndVisible];
     
     [Utils configureNavigationBar];

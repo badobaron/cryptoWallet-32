@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="77" id="4Wd-e6-mw7" customClass="MyWalletCell" customModule="breadwallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="58"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Wd-e6-mw7" id="Naf-Ck-8Eh">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="57.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icTransactionSend" translatesAutoresizingMaskIntoConstraints="NO" id="riK-Aq-u9Y">
+                        <rect key="frame" x="16" y="11.5" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="5gl-q6-eKN"/>
+                            <constraint firstAttribute="width" constant="35" id="S8m-XY-IE1"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="365" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5W-IL-BrQ">
+                        <rect key="frame" x="287" y="8" width="80" height="17.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="l5k-mx-4KY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="15"/>
+                        <color key="textColor" red="0.81568627450980391" green="0.0039215686274509803" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="70.23 USD" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcO-c2-wX7">
+                        <rect key="frame" x="287" y="33.5" width="80" height="16.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="RpC-ua-EKM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                        <color key="textColor" red="0.49803921568627452" green="0.49803921568627452" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1FfmbHfnpaZjKFvyi1okTjJJu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44Z-ok-UM4">
+                        <rect key="frame" x="59" y="8" width="220" height="16.5"/>
+                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                        <color key="textColor" red="0.33333333329999998" green="0.2784313725" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cq4-bc-bZd">
+                        <rect key="frame" x="59" y="33" width="220" height="16.5"/>
+                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                        <color key="textColor" red="0.42352941176470588" green="0.42352941176470588" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lcO-c2-wX7" firstAttribute="leading" secondItem="cq4-bc-bZd" secondAttribute="trailing" constant="8" id="6ud-l4-nhd"/>
+                    <constraint firstItem="44Z-ok-UM4" firstAttribute="leading" secondItem="riK-Aq-u9Y" secondAttribute="trailing" constant="8" id="7h4-US-yhz"/>
+                    <constraint firstItem="cq4-bc-bZd" firstAttribute="top" secondItem="44Z-ok-UM4" secondAttribute="bottom" constant="8" id="AcV-Tz-Xky"/>
+                    <constraint firstItem="O5W-IL-BrQ" firstAttribute="leading" secondItem="44Z-ok-UM4" secondAttribute="trailing" constant="8" id="UaC-DX-7u7"/>
+                    <constraint firstItem="cq4-bc-bZd" firstAttribute="leading" secondItem="riK-Aq-u9Y" secondAttribute="trailing" constant="8" id="b1c-xC-4dn"/>
+                    <constraint firstItem="cq4-bc-bZd" firstAttribute="bottom" secondItem="Naf-Ck-8Eh" secondAttribute="bottomMargin" id="msE-1t-BjF"/>
+                    <constraint firstItem="O5W-IL-BrQ" firstAttribute="trailing" secondItem="Naf-Ck-8Eh" secondAttribute="trailingMargin" id="rP9-Yf-HIS"/>
+                    <constraint firstItem="O5W-IL-BrQ" firstAttribute="top" secondItem="Naf-Ck-8Eh" secondAttribute="topMargin" id="tNi-yf-2Gf"/>
+                    <constraint firstItem="44Z-ok-UM4" firstAttribute="top" secondItem="Naf-Ck-8Eh" secondAttribute="topMargin" id="vf0-m8-flh"/>
+                    <constraint firstItem="lcO-c2-wX7" firstAttribute="trailing" secondItem="Naf-Ck-8Eh" secondAttribute="trailingMargin" id="vfj-6h-UgQ"/>
+                    <constraint firstItem="riK-Aq-u9Y" firstAttribute="centerY" secondItem="Naf-Ck-8Eh" secondAttribute="centerY" id="vfp-Dz-XW0"/>
+                    <constraint firstItem="riK-Aq-u9Y" firstAttribute="leading" secondItem="Naf-Ck-8Eh" secondAttribute="leading" constant="16" id="wlB-1Q-iva"/>
+                    <constraint firstItem="lcO-c2-wX7" firstAttribute="top" secondItem="O5W-IL-BrQ" secondAttribute="bottom" constant="8" id="yn6-9h-ckY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="58" minY="0.0" maxX="8" maxY="0.0"/>
+            <point key="canvasLocation" x="63" y="92"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icTransactionSend" width="39" height="40"/>
+    </resources>
+</document>

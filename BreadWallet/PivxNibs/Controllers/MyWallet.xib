@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyWalletController" customModule="breadwallet" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="Fw3-Ep-x2q" id="iHV-1D-tek"/>
                 <outlet property="view" destination="iN0-l3-epB" id="uH9-f7-ifO"/>
             </connections>
         </placeholder>

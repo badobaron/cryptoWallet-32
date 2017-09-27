@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BackupController" customModule="breadwallet" customModuleProvider="target">
+            <connections>
+                <outlet property="backupButton" destination="Eqt-jA-cdC" id="QB0-Yn-EOx"/>
+                <outlet property="containerView" destination="dt3-tS-vre" id="3M8-wG-FNq"/>
+                <outlet property="passwordTextField" destination="ldc-jT-PjC" id="LQl-MH-HwF"/>
+                <outlet property="repeatPasswordTextField" destination="OyU-1Y-0TX" id="8Kw-ge-UyX"/>
+                <outlet property="view" destination="ItA-dz-MMv" id="LUV-So-SbI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ItA-dz-MMv">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkd-lg-fgL">
+                    <rect key="frame" x="50" y="40" width="275" height="83"/>
+                    <string key="text">
+Your backup will be encrypted with the   you choose and saved to an external storage drive.</string>
+                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
+                    <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dt3-tS-vre">
+                    <rect key="frame" x="57.5" y="173" width="260" height="100"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ldc-jT-PjC">
+                            <rect key="frame" x="8" y="8" width="192" height="33"/>
+                            <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QT9-um-ELt">
+                            <rect key="frame" x="0.0" y="49" width="260" height="1"/>
+                            <color key="backgroundColor" red="0.81176470590000005" green="0.81568627449999997" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="etv-aU-5Wb"/>
+                            </constraints>
+                        </view>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Repeat Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OyU-1Y-0TX">
+                            <rect key="frame" x="8" y="58" width="244" height="34"/>
+                            <color key="textColor" red="0.30980392159999998" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eT-tB-wLu">
+                            <rect key="frame" x="212" y="4" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="AHI-4a-Y5e"/>
+                                <constraint firstAttribute="width" constant="40" id="ekw-dh-iRH"/>
+                            </constraints>
+                            <state key="normal" image="passwordShow"/>
+                            <connections>
+                                <action selector="tappedShowPasswordButton:" destination="-1" eventType="touchUpInside" id="Aq4-pi-QlH"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.96470588239999999" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="QT9-um-ELt" firstAttribute="centerY" secondItem="dt3-tS-vre" secondAttribute="centerY" id="2Ac-BD-Pch"/>
+                        <constraint firstAttribute="height" constant="100" id="CC3-w9-lBv"/>
+                        <constraint firstAttribute="trailing" secondItem="QT9-um-ELt" secondAttribute="trailing" id="Cvu-rI-y1e"/>
+                        <constraint firstItem="ldc-jT-PjC" firstAttribute="leading" secondItem="dt3-tS-vre" secondAttribute="leading" constant="8" id="GyH-Wc-wGc"/>
+                        <constraint firstAttribute="trailing" secondItem="OyU-1Y-0TX" secondAttribute="trailing" constant="8" id="KwE-eb-hvg"/>
+                        <constraint firstItem="QT9-um-ELt" firstAttribute="leading" secondItem="dt3-tS-vre" secondAttribute="leading" id="MAE-Ce-iMw"/>
+                        <constraint firstAttribute="trailing" secondItem="1eT-tB-wLu" secondAttribute="trailing" constant="8" id="QE9-TC-crV"/>
+                        <constraint firstItem="QT9-um-ELt" firstAttribute="top" secondItem="ldc-jT-PjC" secondAttribute="bottom" constant="8" id="SEy-14-aSo"/>
+                        <constraint firstItem="1eT-tB-wLu" firstAttribute="top" secondItem="dt3-tS-vre" secondAttribute="top" constant="4" id="Un5-7Z-V7K"/>
+                        <constraint firstAttribute="trailing" secondItem="ldc-jT-PjC" secondAttribute="trailing" constant="60" id="WZ9-5H-pf5"/>
+                        <constraint firstItem="ldc-jT-PjC" firstAttribute="top" secondItem="dt3-tS-vre" secondAttribute="top" constant="8" id="WtB-3k-Avn"/>
+                        <constraint firstItem="OyU-1Y-0TX" firstAttribute="leading" secondItem="dt3-tS-vre" secondAttribute="leading" constant="8" id="ain-dt-Pi7"/>
+                        <constraint firstAttribute="trailing" secondItem="1eT-tB-wLu" secondAttribute="trailing" constant="8" id="gjh-wh-BAq"/>
+                        <constraint firstAttribute="bottom" secondItem="OyU-1Y-0TX" secondAttribute="bottom" constant="8" id="mpA-RG-y1C"/>
+                        <constraint firstItem="OyU-1Y-0TX" firstAttribute="top" secondItem="QT9-um-ELt" secondAttribute="bottom" constant="8" id="o1d-nu-uqX"/>
+                        <constraint firstAttribute="width" constant="260" id="psQ-8R-VlF"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eqt-jA-cdC">
+                    <rect key="frame" x="57" y="532" width="260" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="lGF-W6-nYO"/>
+                        <constraint firstAttribute="width" constant="260" id="uhZ-cF-OaP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="15"/>
+                    <state key="normal" title="Backup wallet">
+                        <color key="titleColor" red="0.33333333329999998" green="0.2784313725" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="tappedBackupButton:" destination="-1" eventType="touchUpInside" id="nTF-s1-Ngw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Eqt-jA-cdC" secondAttribute="bottom" constant="85" id="40n-lP-Dux"/>
+                <constraint firstItem="Eqt-jA-cdC" firstAttribute="centerX" secondItem="ItA-dz-MMv" secondAttribute="centerX" id="Rv1-8W-sgo"/>
+                <constraint firstItem="dt3-tS-vre" firstAttribute="centerX" secondItem="ItA-dz-MMv" secondAttribute="centerX" id="U3m-Cm-UbQ"/>
+                <constraint firstItem="xkd-lg-fgL" firstAttribute="leading" secondItem="ItA-dz-MMv" secondAttribute="leading" constant="50" id="VAn-IU-Mkw"/>
+                <constraint firstItem="xkd-lg-fgL" firstAttribute="top" secondItem="ItA-dz-MMv" secondAttribute="top" constant="40" id="eEb-MN-SXR"/>
+                <constraint firstAttribute="trailing" secondItem="xkd-lg-fgL" secondAttribute="trailing" constant="50" id="eQl-6O-Y5g"/>
+                <constraint firstItem="dt3-tS-vre" firstAttribute="top" secondItem="xkd-lg-fgL" secondAttribute="bottom" constant="50" id="gTB-bp-RGR"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="passwordShow" width="27" height="17"/>
+    </resources>
+</document>

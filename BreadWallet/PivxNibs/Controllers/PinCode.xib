@@ -17,12 +17,23 @@
                 <outlet property="fourthView" destination="NCq-hB-2wB" id="Q7q-xY-0tB"/>
                 <outlet property="fourthViewHeightConstraint" destination="U29-Rj-usK" id="mI7-a8-WTa"/>
                 <outlet property="fourthViewWidthConstraint" destination="0yg-fk-3Jj" id="LuD-L0-55T"/>
+                <outlet property="n0Label" destination="Age-OI-zWn" id="7Oi-lH-fPF"/>
+                <outlet property="n1Label" destination="5bo-CG-rqE" id="262-yj-LTd"/>
+                <outlet property="n2Label" destination="MLQ-gu-WIW" id="2Gi-hj-kD2"/>
+                <outlet property="n3Label" destination="6Zl-l9-KJ6" id="gCV-d7-Keb"/>
+                <outlet property="n4Label" destination="xyf-uM-UYi" id="6iQ-Qq-EfR"/>
+                <outlet property="n5Label" destination="av8-3l-FZ3" id="1oJ-aP-Kk1"/>
+                <outlet property="n6Label" destination="X0I-S7-YSM" id="cgx-PV-r6y"/>
+                <outlet property="n7Label" destination="wZl-Cx-bZz" id="MrJ-Vl-TkU"/>
+                <outlet property="n8Label" destination="axQ-69-uk9" id="qDS-Nd-i6w"/>
+                <outlet property="n9Label" destination="6Bp-4V-BHK" id="cKT-qD-pcy"/>
                 <outlet property="secondView" destination="7yg-LE-BZ1" id="Heg-LO-L4S"/>
                 <outlet property="secondViewHeightConstraint" destination="p3x-4C-hPf" id="hlD-3s-8sV"/>
                 <outlet property="secondViewWidthConstraint" destination="DWa-z3-By9" id="N7y-AK-esg"/>
                 <outlet property="thirdView" destination="VyC-IF-CNF" id="aVR-9X-Q58"/>
                 <outlet property="thirdViewHeightConstraint" destination="3lE-J3-Wwc" id="VnC-SY-7O8"/>
                 <outlet property="thirdViewWidthConstraint" destination="cpB-Vw-wrg" id="OyZ-6d-3NT"/>
+                <outlet property="titleLabel" destination="RBE-N7-kzj" id="Bxp-sr-sTg"/>
                 <outlet property="view" destination="iN0-l3-epB" id="4uQ-hV-2Iz"/>
             </connections>
         </placeholder>

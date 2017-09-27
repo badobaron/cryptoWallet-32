@@ -162,6 +162,32 @@
 		DEB328AE1F7A103700AC9681 /* MyWalletController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328AD1F7A103700AC9681 /* MyWalletController.swift */; };
 		DEB328B11F7A172B00AC9681 /* Donation.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328B01F7A172B00AC9681 /* Donation.xib */; };
 		DEB328B31F7A196200AC9681 /* DonationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328B21F7A196200AC9681 /* DonationController.swift */; };
+		DEB328B61F7A8AD800AC9681 /* Send.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328B51F7A8AD800AC9681 /* Send.xib */; };
+		DEB328B81F7AA8CD00AC9681 /* Setting.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328B71F7AA8CD00AC9681 /* Setting.xib */; };
+		DEB328BA1F7AAFF100AC9681 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328B91F7AAFF100AC9681 /* SettingController.swift */; };
+		DEB328BC1F7AB16B00AC9681 /* Backup.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328BB1F7AB16B00AC9681 /* Backup.xib */; };
+		DEB328BE1F7AB58100AC9681 /* BackupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328BD1F7AB58100AC9681 /* BackupController.swift */; };
+		DEB328C21F7ABDEC00AC9681 /* AddressContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328C11F7ABDEC00AC9681 /* AddressContactController.swift */; };
+		DEB328C71F7AC24600AC9681 /* AddressContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328C61F7AC24600AC9681 /* AddressContactCell.xib */; };
+		DEB328CA1F7AC54500AC9681 /* AddressContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328C91F7AC54500AC9681 /* AddressContactCell.swift */; };
+		DEB328CD1F7AC96600AC9681 /* AddressContactEmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328CC1F7AC96600AC9681 /* AddressContactEmptyCell.xib */; };
+		DEB328CF1F7AD82100AC9681 /* AddressContactEmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328CE1F7AD82100AC9681 /* AddressContactEmptyCell.swift */; };
+		DEB328D11F7AD94000AC9681 /* MyWalletCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328D01F7AD94000AC9681 /* MyWalletCell.xib */; };
+		DEB328D31F7ADB7500AC9681 /* MyWalletEmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328D21F7ADB7500AC9681 /* MyWalletEmptyCell.xib */; };
+		DEB328D51F7ADC0300AC9681 /* MyWalletEmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328D41F7ADC0300AC9681 /* MyWalletEmptyCell.swift */; };
+		DEB328D71F7ADC4C00AC9681 /* MyWalletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328D61F7ADC4C00AC9681 /* MyWalletCell.swift */; };
+		DEB328D91F7ADFE200AC9681 /* MyAddress.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328D81F7ADFE100AC9681 /* MyAddress.xib */; };
+		DEB328DB1F7AE1F700AC9681 /* MyAddressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328DA1F7AE1F700AC9681 /* MyAddressController.swift */; };
+		DEB328DD1F7AE3AB00AC9681 /* NewAddress.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328DC1F7AE3AB00AC9681 /* NewAddress.xib */; };
+		DEB328DF1F7AE5E500AC9681 /* NewAddressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328DE1F7AE5E500AC9681 /* NewAddressController.swift */; };
+		DEB328E11F7AF0E600AC9681 /* RestoreWord.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328E01F7AF0E600AC9681 /* RestoreWord.xib */; };
+		DEB328E31F7AF30000AC9681 /* RestoreWordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328E21F7AF30000AC9681 /* RestoreWordView.xib */; };
+		DEB328E61F7AF63B00AC9681 /* RestoreWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328E51F7AF63B00AC9681 /* RestoreWordView.swift */; };
+		DEB328E81F7AFF1800AC9681 /* RestoreWordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328E71F7AFF1800AC9681 /* RestoreWordController.swift */; };
+		DEB328EA1F7B0F9E00AC9681 /* WatchOnly.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328E91F7B0F9E00AC9681 /* WatchOnly.xib */; };
+		DEB328EC1F7B114900AC9681 /* WatchOnlyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328EB1F7B114900AC9681 /* WatchOnlyController.swift */; };
+		DEB328EE1F7C18AC00AC9681 /* ExportWalletController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328ED1F7C18AC00AC9681 /* ExportWalletController.swift */; };
+		DEB328F01F7C193100AC9681 /* ExportWallet.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328EF1F7C193100AC9681 /* ExportWallet.xib */; };
 		DEFC9EE71F756A7C00C5CA20 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9EE61F756A7C00C5CA20 /* Login.xib */; };
 		DEFC9EEA1F756B3400C5CA20 /* Pivx.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9EE91F756B3400C5CA20 /* Pivx.xcassets */; };
 		DEFC9EED1F756C0A00C5CA20 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9EEC1F756C0A00C5CA20 /* LoginController.swift */; };
@@ -620,6 +646,32 @@
 		DEB328AD1F7A103700AC9681 /* MyWalletController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyWalletController.swift; path = PivxControllers/MyWalletController.swift; sourceTree = "<group>"; };
 		DEB328B01F7A172B00AC9681 /* Donation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Donation.xib; path = PivxNibs/Controllers/Donation.xib; sourceTree = "<group>"; };
 		DEB328B21F7A196200AC9681 /* DonationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DonationController.swift; path = PivxControllers/DonationController.swift; sourceTree = "<group>"; };
+		DEB328B51F7A8AD800AC9681 /* Send.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Send.xib; path = PivxNibs/Controllers/Send.xib; sourceTree = "<group>"; };
+		DEB328B71F7AA8CD00AC9681 /* Setting.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Setting.xib; path = PivxNibs/Controllers/Setting.xib; sourceTree = "<group>"; };
+		DEB328B91F7AAFF100AC9681 /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingController.swift; path = PivxControllers/SettingController.swift; sourceTree = "<group>"; };
+		DEB328BB1F7AB16B00AC9681 /* Backup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Backup.xib; path = PivxNibs/Controllers/Backup.xib; sourceTree = "<group>"; };
+		DEB328BD1F7AB58100AC9681 /* BackupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackupController.swift; path = PivxControllers/BackupController.swift; sourceTree = "<group>"; };
+		DEB328C11F7ABDEC00AC9681 /* AddressContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressContactController.swift; path = PivxControllers/AddressContactController.swift; sourceTree = "<group>"; };
+		DEB328C61F7AC24600AC9681 /* AddressContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddressContactCell.xib; path = PivxNibs/TableCells/AddressContactCell.xib; sourceTree = "<group>"; };
+		DEB328C91F7AC54500AC9681 /* AddressContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressContactCell.swift; path = PivxViews/TableCells/AddressContactCell.swift; sourceTree = "<group>"; };
+		DEB328CC1F7AC96600AC9681 /* AddressContactEmptyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddressContactEmptyCell.xib; path = PivxNibs/TableCells/AddressContactEmptyCell.xib; sourceTree = "<group>"; };
+		DEB328CE1F7AD82100AC9681 /* AddressContactEmptyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressContactEmptyCell.swift; path = PivxViews/TableCells/AddressContactEmptyCell.swift; sourceTree = "<group>"; };
+		DEB328D01F7AD94000AC9681 /* MyWalletCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyWalletCell.xib; path = PivxNibs/TableCells/MyWalletCell.xib; sourceTree = "<group>"; };
+		DEB328D21F7ADB7500AC9681 /* MyWalletEmptyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyWalletEmptyCell.xib; path = PivxNibs/TableCells/MyWalletEmptyCell.xib; sourceTree = "<group>"; };
+		DEB328D41F7ADC0300AC9681 /* MyWalletEmptyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyWalletEmptyCell.swift; path = PivxViews/TableCells/MyWalletEmptyCell.swift; sourceTree = "<group>"; };
+		DEB328D61F7ADC4C00AC9681 /* MyWalletCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyWalletCell.swift; path = PivxViews/TableCells/MyWalletCell.swift; sourceTree = "<group>"; };
+		DEB328D81F7ADFE100AC9681 /* MyAddress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyAddress.xib; path = PivxNibs/Controllers/MyAddress.xib; sourceTree = "<group>"; };
+		DEB328DA1F7AE1F700AC9681 /* MyAddressController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyAddressController.swift; path = PivxControllers/MyAddressController.swift; sourceTree = "<group>"; };
+		DEB328DC1F7AE3AB00AC9681 /* NewAddress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewAddress.xib; path = PivxNibs/Controllers/NewAddress.xib; sourceTree = "<group>"; };
+		DEB328DE1F7AE5E500AC9681 /* NewAddressController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewAddressController.swift; path = PivxControllers/NewAddressController.swift; sourceTree = "<group>"; };
+		DEB328E01F7AF0E600AC9681 /* RestoreWord.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RestoreWord.xib; path = PivxNibs/Controllers/RestoreWord.xib; sourceTree = "<group>"; };
+		DEB328E21F7AF30000AC9681 /* RestoreWordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RestoreWordView.xib; path = PivxNibs/Views/RestoreWordView.xib; sourceTree = "<group>"; };
+		DEB328E51F7AF63B00AC9681 /* RestoreWordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestoreWordView.swift; path = PivxViews/Views/RestoreWordView.swift; sourceTree = "<group>"; };
+		DEB328E71F7AFF1800AC9681 /* RestoreWordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestoreWordController.swift; path = PivxControllers/RestoreWordController.swift; sourceTree = "<group>"; };
+		DEB328E91F7B0F9E00AC9681 /* WatchOnly.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WatchOnly.xib; path = PivxNibs/Controllers/WatchOnly.xib; sourceTree = "<group>"; };
+		DEB328EB1F7B114900AC9681 /* WatchOnlyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WatchOnlyController.swift; path = PivxControllers/WatchOnlyController.swift; sourceTree = "<group>"; };
+		DEB328ED1F7C18AC00AC9681 /* ExportWalletController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExportWalletController.swift; path = PivxControllers/ExportWalletController.swift; sourceTree = "<group>"; };
+		DEB328EF1F7C193100AC9681 /* ExportWallet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExportWallet.xib; path = PivxNibs/Controllers/ExportWallet.xib; sourceTree = "<group>"; };
 		DEFC9EE61F756A7C00C5CA20 /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Login.xib; path = PivxNibs/Controllers/Login.xib; sourceTree = "<group>"; };
 		DEFC9EE91F756B3400C5CA20 /* Pivx.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pivx.xcassets; sourceTree = "<group>"; };
 		DEFC9EEC1F756C0A00C5CA20 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = PivxControllers/LoginController.swift; sourceTree = "<group>"; };
@@ -1071,6 +1123,7 @@
 				DEFC9F031F759B7F00C5CA20 /* PivxFonts */,
 				DEFC9EF11F75790700C5CA20 /* PivxUtils */,
 				DEFC9EE51F7569F100C5CA20 /* PivxNibs */,
+				DEB328C81F7AC4F300AC9681 /* PivxViews */,
 				DEFC9EEB1F756BBA00C5CA20 /* PivxControllers */,
 				BAC7B6BF1BD9C2B500165B84 /* AppleWatch */,
 				752E289C19234A4700DB5A3C /* Models */,
@@ -1204,9 +1257,49 @@
 			path = TodayExtension;
 			sourceTree = "<group>";
 		};
+		DEB328C31F7AC1B100AC9681 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				DEB328C61F7AC24600AC9681 /* AddressContactCell.xib */,
+				DEB328CC1F7AC96600AC9681 /* AddressContactEmptyCell.xib */,
+				DEB328D01F7AD94000AC9681 /* MyWalletCell.xib */,
+				DEB328D21F7ADB7500AC9681 /* MyWalletEmptyCell.xib */,
+			);
+			name = TableCells;
+			sourceTree = "<group>";
+		};
+		DEB328C81F7AC4F300AC9681 /* PivxViews */ = {
+			isa = PBXGroup;
+			children = (
+				DEB328E41F7AF5D800AC9681 /* Views */,
+				DEB328CB1F7AC54A00AC9681 /* TableCells */,
+			);
+			name = PivxViews;
+			sourceTree = "<group>";
+		};
+		DEB328CB1F7AC54A00AC9681 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				DEB328C91F7AC54500AC9681 /* AddressContactCell.swift */,
+				DEB328CE1F7AD82100AC9681 /* AddressContactEmptyCell.swift */,
+				DEB328D41F7ADC0300AC9681 /* MyWalletEmptyCell.swift */,
+				DEB328D61F7ADC4C00AC9681 /* MyWalletCell.swift */,
+			);
+			name = TableCells;
+			sourceTree = "<group>";
+		};
+		DEB328E41F7AF5D800AC9681 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEB328E51F7AF63B00AC9681 /* RestoreWordView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		DEFC9EE51F7569F100C5CA20 /* PivxNibs */ = {
 			isa = PBXGroup;
 			children = (
+				DEB328C31F7AC1B100AC9681 /* TableCells */,
 				DEFC9F001F75953300C5CA20 /* Views */,
 				DEFC9EE81F756A8600C5CA20 /* Controllers */,
 			);
@@ -1216,13 +1309,21 @@
 		DEFC9EE81F756A8600C5CA20 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DEFC9EE61F756A7C00C5CA20 /* Login.xib */,
-				DEFC9EFE1F75899E00C5CA20 /* Restore.xib */,
-				DEFC9F1F1F75A36200C5CA20 /* Setup.xib */,
-				DEFC9F251F788E6200C5CA20 /* PinCode.xib */,
-				DEB328A71F79FB4400AC9681 /* Menu.xib */,
-				DEB328A91F7A0B5200AC9681 /* MyWallet.xib */,
+				DEB328BB1F7AB16B00AC9681 /* Backup.xib */,
 				DEB328B01F7A172B00AC9681 /* Donation.xib */,
+				DEFC9EE61F756A7C00C5CA20 /* Login.xib */,
+				DEB328A71F79FB4400AC9681 /* Menu.xib */,
+				DEB328D81F7ADFE100AC9681 /* MyAddress.xib */,
+				DEB328A91F7A0B5200AC9681 /* MyWallet.xib */,
+				DEB328DC1F7AE3AB00AC9681 /* NewAddress.xib */,
+				DEFC9F251F788E6200C5CA20 /* PinCode.xib */,
+				DEFC9EFE1F75899E00C5CA20 /* Restore.xib */,
+				DEB328B51F7A8AD800AC9681 /* Send.xib */,
+				DEB328B71F7AA8CD00AC9681 /* Setting.xib */,
+				DEFC9F1F1F75A36200C5CA20 /* Setup.xib */,
+				DEB328E01F7AF0E600AC9681 /* RestoreWord.xib */,
+				DEB328E91F7B0F9E00AC9681 /* WatchOnly.xib */,
+				DEB328EF1F7C193100AC9681 /* ExportWallet.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -1238,6 +1339,14 @@
 				DEB328AB1F7A0E7700AC9681 /* MenuController.swift */,
 				DEB328AD1F7A103700AC9681 /* MyWalletController.swift */,
 				DEB328B21F7A196200AC9681 /* DonationController.swift */,
+				DEB328B91F7AAFF100AC9681 /* SettingController.swift */,
+				DEB328BD1F7AB58100AC9681 /* BackupController.swift */,
+				DEB328C11F7ABDEC00AC9681 /* AddressContactController.swift */,
+				DEB328DA1F7AE1F700AC9681 /* MyAddressController.swift */,
+				DEB328DE1F7AE5E500AC9681 /* NewAddressController.swift */,
+				DEB328E71F7AFF1800AC9681 /* RestoreWordController.swift */,
+				DEB328EB1F7B114900AC9681 /* WatchOnlyController.swift */,
+				DEB328ED1F7C18AC00AC9681 /* ExportWalletController.swift */,
 			);
 			name = PivxControllers;
 			sourceTree = "<group>";
@@ -1260,6 +1369,7 @@
 				DEFC9F191F759E4700C5CA20 /* Step2View.xib */,
 				DEFC9F1B1F759ED100C5CA20 /* Step3View.xib */,
 				DEFC9F1D1F759F6800C5CA20 /* Step4View.xib */,
+				DEB328E21F7AF30000AC9681 /* RestoreWordView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -1536,13 +1646,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEB328F01F7C193100AC9681 /* ExportWallet.xib in Resources */,
 				DEFC9F021F75975900C5CA20 /* Step1View.xib in Resources */,
+				DEB328B81F7AA8CD00AC9681 /* Setting.xib in Resources */,
 				DEFC9F1E1F759F6800C5CA20 /* Step4View.xib in Resources */,
+				DEB328BC1F7AB16B00AC9681 /* Backup.xib in Resources */,
 				DEFC9F111F759C4800C5CA20 /* ZillaSlab-Italic.ttf in Resources */,
+				DEB328B61F7A8AD800AC9681 /* Send.xib in Resources */,
 				DEFC9EFF1F75899E00C5CA20 /* Restore.xib in Resources */,
+				DEB328DD1F7AE3AB00AC9681 /* NewAddress.xib in Resources */,
 				DEFC9F161F759C4800C5CA20 /* ZillaSlab-Regular.ttf in Resources */,
 				75D5F3E0191EC270004AB296 /* Images.xcassets in Resources */,
+				DEB328CD1F7AC96600AC9681 /* AddressContactEmptyCell.xib in Resources */,
+				DEB328C71F7AC24600AC9681 /* AddressContactCell.xib in Resources */,
 				DEB328AA1F7A0B5200AC9681 /* MyWallet.xib in Resources */,
+				DEB328E31F7AF30000AC9681 /* RestoreWordView.xib in Resources */,
 				DEFC9F131F759C4800C5CA20 /* ZillaSlab-LightItalic.ttf in Resources */,
 				DEB328B11F7A172B00AC9681 /* Donation.xib in Resources */,
 				DEB328A81F79FB4400AC9681 /* Menu.xib in Resources */,
@@ -1555,13 +1673,18 @@
 				DEFC9F151F759C4800C5CA20 /* ZillaSlab-MediumItalic.ttf in Resources */,
 				75F2E0D31BE9803900EAE861 /* Launch Screen.storyboard in Resources */,
 				75C0E3BF1B1BA294007BC531 /* BIP39Words.plist in Resources */,
+				DEB328EA1F7B0F9E00AC9681 /* WatchOnly.xib in Resources */,
+				DEB328D31F7ADB7500AC9681 /* MyWalletEmptyCell.xib in Resources */,
 				DEFC9F181F759C4800C5CA20 /* ZillaSlab-SemiBoldItalic.ttf in Resources */,
 				75E83CF61B5F997A0038FB70 /* coinflip.aiff in Resources */,
+				DEB328E11F7AF0E600AC9681 /* RestoreWord.xib in Resources */,
 				DEFC9F261F788E6200C5CA20 /* PinCode.xib in Resources */,
 				DEFC9F1A1F759E4700C5CA20 /* Step2View.xib in Resources */,
+				DEB328D11F7AD94000AC9681 /* MyWalletCell.xib in Resources */,
 				755FC9ED1BF1DF1B00164ABB /* BREventConfirmView.xib in Resources */,
 				752E28F719235B3000DB5A3C /* FixedPeers.plist in Resources */,
 				75D5F3DE191EC270004AB296 /* Main.storyboard in Resources */,
+				DEB328D91F7ADFE200AC9681 /* MyAddress.xib in Resources */,
 				DEFC9EEA1F756B3400C5CA20 /* Pivx.xcassets in Resources */,
 				DEFC9F0F1F759C4800C5CA20 /* ZillaSlab-Bold.ttf in Resources */,
 				DEFC9F141F759C4800C5CA20 /* ZillaSlab-Medium.ttf in Resources */,
@@ -1713,6 +1836,7 @@
 				DEFC9F221F75A5A100C5CA20 /* SetupController.swift in Sources */,
 				752E28D119234C3600DB5A3C /* BRKey.m in Sources */,
 				DEB328B31F7A196200AC9681 /* DonationController.swift in Sources */,
+				DEB328E81F7AFF1800AC9681 /* RestoreWordController.swift in Sources */,
 				84F68C8A1975E9E2002FC300 /* BRScanViewController.m in Sources */,
 				2204604E1B9F61E600D07B61 /* BREventManager.m in Sources */,
 				752E28D219234C3600DB5A3C /* BRKey+BIP38.m in Sources */,
@@ -1734,17 +1858,23 @@
 				220128D91C77B3100001CAC1 /* BRHTTPIndexMiddleware.swift in Sources */,
 				752E28DB19234C3600DB5A3C /* BRWalletManager.m in Sources */,
 				752E28D319234C3600DB5A3C /* BRMerkleBlock.m in Sources */,
+				DEB328C21F7ABDEC00AC9681 /* AddressContactController.swift in Sources */,
 				22331F441D60312F00F29551 /* BRKVStoreObjects.swift in Sources */,
 				DEFC9EEF1F756CB100C5CA20 /* BaseController.swift in Sources */,
+				DEB328DB1F7AE1F700AC9681 /* MyAddressController.swift in Sources */,
 				752875031F393391002167CC /* BRMerkleBlock.c in Sources */,
 				222040C41C1A0903005CE1C3 /* BRWebViewController.swift in Sources */,
 				752E28D019234C3600DB5A3C /* BRBloomFilter.m in Sources */,
 				752E28D619234C3600DB5A3C /* BRPeer.m in Sources */,
 				752E28D819234C3600DB5A3C /* BRPeerManager.m in Sources */,
 				752875081F393391002167CC /* BRTransaction.c in Sources */,
+				DEB328CF1F7AD82100AC9681 /* AddressContactEmptyCell.swift in Sources */,
 				752875001F393391002167CC /* BRBloomFilter.c in Sources */,
 				2263D1BB1EE8A268008F6F8C /* Bonjour.swift in Sources */,
 				752E28D419234C3600DB5A3C /* BRPaymentProtocol.m in Sources */,
+				DEB328D51F7ADC0300AC9681 /* MyWalletEmptyCell.swift in Sources */,
+				DEB328DF1F7AE5E500AC9681 /* NewAddressController.swift in Sources */,
+				DEB328CA1F7AC54500AC9681 /* AddressContactCell.swift in Sources */,
 				22F7B6D51D1479FA007CC848 /* BRBitID.swift in Sources */,
 				22005B961C9276AF00F87733 /* BRLinkPlugin.swift in Sources */,
 				752E28D519234C3600DB5A3C /* BRPaymentRequest.m in Sources */,
@@ -1756,13 +1886,17 @@
 				75878BC1192AEC3F002505AB /* BRReceiveViewController.m in Sources */,
 				752875071F393391002167CC /* BRSet.c in Sources */,
 				DEFC9EF91F757CAB00C5CA20 /* PivxExtensions.swift in Sources */,
+				DEB328E61F7AF63B00AC9681 /* RestoreWordView.swift in Sources */,
+				DEB328EC1F7B114900AC9681 /* WatchOnlyController.swift in Sources */,
 				75878BBF192ACD46002505AB /* BRAmountViewController.m in Sources */,
 				759816E719357D6F005060EA /* BRBubbleView.m in Sources */,
 				752875021F393391002167CC /* BRKey.c in Sources */,
+				DEB328BA1F7AAFF100AC9681 /* SettingController.swift in Sources */,
 				22F7B6DA1D14A665007CC848 /* BRActivityView.swift in Sources */,
 				22B5F7841D665A0300657B77 /* BRKVStorePlugin.swift in Sources */,
 				757BE7E3192C0E9D0061CB20 /* BRRestoreViewController.m in Sources */,
 				CE5EFDD71F3935BF001A21C1 /* BRSendBCHViewController.m in Sources */,
+				DEB328D71F7ADC4C00AC9681 /* MyWalletCell.swift in Sources */,
 				757BE7E6192C1FF70061CB20 /* BRWelcomeViewController.m in Sources */,
 				757BE7E9192D4E880061CB20 /* BRSeedViewController.m in Sources */,
 				752E28E719234DA200DB5A3C /* NSData+Bitcoin.m in Sources */,
@@ -1776,11 +1910,13 @@
 				752E28EB19234DA200DB5A3C /* NSString+Bitcoin.m in Sources */,
 				757C89521A2FCE420076B373 /* BRSettingsViewController.m in Sources */,
 				22649FED1DAABDB200042EBC /* BRCameraPlugin.swift in Sources */,
+				DEB328EE1F7C18AC00AC9681 /* ExportWalletController.swift in Sources */,
 				22A86F671EFDBC7300CAD61F /* BRBrowserViewController.swift in Sources */,
 				220128D51C76E1550001CAC1 /* BRWebSocket.swift in Sources */,
 				75D5F3D2191EC270004AB296 /* BRAppDelegate.m in Sources */,
 				752875091F393391002167CC /* BRWallet.c in Sources */,
 				759FBB36193290F600AB4465 /* BRRootViewController.m in Sources */,
+				DEB328BE1F7AB58100AC9681 /* BackupController.swift in Sources */,
 				752E289A192349CE00DB5A3C /* BreadWallet.xcdatamodeld in Sources */,
 				759FBB37193290F600AB4465 /* BRSendViewController.m in Sources */,
 				752E28F119234E8100DB5A3C /* Reachability.m in Sources */,

@@ -9,8 +9,25 @@
 import UIKit
 import SlideMenuControllerSwift
 
+enum PinCodeType:String {
+    case purple
+    case white
+}
+
 class PinCodeController: BaseController {
 
+    @IBOutlet weak var n2Label: UILabel!
+    @IBOutlet weak var n1Label: UILabel!
+    @IBOutlet weak var n4Label: UILabel!
+    @IBOutlet weak var n5Label: UILabel!
+    @IBOutlet weak var n6Label: UILabel!
+    @IBOutlet weak var n7Label: UILabel!
+    @IBOutlet weak var n3Label: UILabel!
+    @IBOutlet weak var n8Label: UILabel!
+    @IBOutlet weak var n9Label: UILabel!
+    @IBOutlet weak var n0Label: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    
     @IBOutlet weak var fourthViewHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var fourthViewWidthConstraint: NSLayoutConstraint!
     @IBOutlet weak var thirdViewWidthConstraint: NSLayoutConstraint!
@@ -25,17 +42,47 @@ class PinCodeController: BaseController {
     @IBOutlet weak var fourthView: UIView!
     
     var code:[String] = []
+    var type:PinCodeType = .purple
+    var auxTitle:String = ""
     
     override func setup() {
         firstView.border(cornerRadius: 5)
         secondView.border(cornerRadius: 5)
         thirdView.border(cornerRadius: 5)
         fourthView.border(cornerRadius: 5)
+        configureWith(type: type)
+        
     }
     
     override func setupNavigationBar() {
+        super.setupNavigationBar()
         navigationItem.title = "Create Pincode"
         navigationController?.setNavigationBarHidden(false, animated: true)
+        if type == .white {
+            navigationItem.title = "Update Pincode"
+        }
+    }
+    
+    func configureWith(type:PinCodeType){
+        if type == .white {
+            titleLabel.textColor = K.color.black_r58g58b58
+            titleLabel.text = auxTitle
+            view.backgroundColor = .white
+            n2Label.textColor = K.color.black_r58g58b58
+            n1Label.textColor = K.color.black_r58g58b58
+            n4Label.textColor = K.color.black_r58g58b58
+            n5Label.textColor = K.color.black_r58g58b58
+            n6Label.textColor = K.color.black_r58g58b58
+            n7Label.textColor = K.color.black_r58g58b58
+            n3Label.textColor = K.color.black_r58g58b58
+            n8Label.textColor = K.color.black_r58g58b58
+            n9Label.textColor = K.color.black_r58g58b58
+            n0Label.textColor = K.color.black_r58g58b58
+            firstView.backgroundColor = K.color.gray_r155g155b155
+            secondView.backgroundColor = K.color.gray_r155g155b155
+            thirdView.backgroundColor = K.color.gray_r155g155b155
+            fourthView.backgroundColor = K.color.gray_r155g155b155
+        }
     }
     
     func addNumber(number:String){
@@ -52,24 +99,27 @@ class PinCodeController: BaseController {
             animateWith(view:fourthView, widthAnchor: fourthViewWidthConstraint, heightAnchor: fourthViewHeightConstraint, constant: 15, color: K.color.gree_r0g150b136)
             break
         default:
-            toHome()
             return
         }
         code.append(number)
     }
     
     func removeNumber(){
+        var color = UIColor.white
+        if type == .white {
+            color = K.color.gray_r155g155b155
+        }
         switch code.count {
         case 1:
-            animateWith(view:firstView, widthAnchor: firstViewWidthConstraint, heightAnchor: firstViewHeightConstraint, constant: 10, color: .white)
+            animateWith(view:firstView, widthAnchor: firstViewWidthConstraint, heightAnchor: firstViewHeightConstraint, constant: 10, color: color)
             break
         case 2:
-            animateWith(view:secondView, widthAnchor: secondViewWidthConstraint, heightAnchor: secondViewHeightConstraint, constant: 10, color: .white)
+            animateWith(view:secondView, widthAnchor: secondViewWidthConstraint, heightAnchor: secondViewHeightConstraint, constant: 10, color: color)
             break
         case 3:
-            animateWith(view:thirdView, widthAnchor: thirdViewWidthConstraint, heightAnchor: thirdViewHeightConstraint, constant: 10, color: .white)
+            animateWith(view:thirdView, widthAnchor: thirdViewWidthConstraint, heightAnchor: thirdViewHeightConstraint, constant: 10, color: color)
         case 4:
-            animateWith(view:fourthView, widthAnchor: fourthViewWidthConstraint, heightAnchor: fourthViewHeightConstraint, constant: 10, color: .white)
+            animateWith(view:fourthView, widthAnchor: fourthViewWidthConstraint, heightAnchor: fourthViewHeightConstraint, constant: 10, color: color)
             break
         default:
             return
@@ -79,25 +129,15 @@ class PinCodeController: BaseController {
     
     func clearNumber(){
         if code.count != 0 {
-            animateWith(view:firstView, widthAnchor: firstViewWidthConstraint, heightAnchor: firstViewHeightConstraint, constant: 10, color: .white)
-            animateWith(view:secondView, widthAnchor: secondViewWidthConstraint, heightAnchor: secondViewHeightConstraint, constant: 10, color: .white)
-            animateWith(view:thirdView, widthAnchor: thirdViewWidthConstraint, heightAnchor: thirdViewHeightConstraint, constant: 10, color: .white)
-            animateWith(view:fourthView, widthAnchor: fourthViewWidthConstraint, heightAnchor: fourthViewHeightConstraint, constant: 10, color: .white)
+            var color = UIColor.white
+            if type == .white {
+                color = K.color.gray_r155g155b155
+            }
+            animateWith(view:firstView, widthAnchor: firstViewWidthConstraint, heightAnchor: firstViewHeightConstraint, constant: 10, color: color)
+            animateWith(view:secondView, widthAnchor: secondViewWidthConstraint, heightAnchor: secondViewHeightConstraint, constant: 10, color: color)
+            animateWith(view:thirdView, widthAnchor: thirdViewWidthConstraint, heightAnchor: thirdViewHeightConstraint, constant: 10, color: color)
+            animateWith(view:fourthView, widthAnchor: fourthViewWidthConstraint, heightAnchor: fourthViewHeightConstraint, constant: 10, color: color)
             code = []
-        }
-    }
-    
-    func toHome(){
-        let menuController = MenuController(nibName: "Menu", bundle: nil)
-        let myWalletController = MyWalletController(nibName: "MyWallet", bundle: nil)
-        let nav = UINavigationController(rootViewController: myWalletController)
-        let navigationController = SlideMenuController(mainViewController: nav, leftMenuViewController:menuController, rightMenuViewController: UIViewController())
-        navigationController.removeRightGestures()
-        
-        if let keyWindow = UIApplication.shared.keyWindow {
-            keyWindow.rootViewController?.removeFromParentViewController()
-            keyWindow.rootViewController = navigationController
-            keyWindow.makeKeyAndVisible()
         }
     }
     
