@@ -1,17 +1,18 @@
 //
-//  AddressContactEmptyCell.swift
+//  CoinSelectionCell.swift
 //  BreadWallet
 //
-//  Created by German Mendoza on 9/26/17.
+//  Created by German Mendoza on 9/27/17.
 //  Copyright © 2017 Aaron Voisine. All rights reserved.
 //
 
 import UIKit
 
-class AddressContactEmptyCell: UITableViewHeaderFooterView {
+class CoinSelectionCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        // Initialization code
     }
 
 }

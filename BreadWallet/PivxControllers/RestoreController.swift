@@ -26,8 +26,7 @@ class RestoreController: BaseController {
         super.setupNavigationBar()
         navigationItem.title = "Restore Wallet"
         navigationController?.setNavigationBarHidden(false, animated: true)
-        let optionButton = UIBarButtonItem(image: UIImage(named:"icMenuOptions"), style: .plain, target: self, action: #selector(tappedOptionButton))
-        navigationItem.rightBarButtonItem = optionButton
+        addOptionButton()
     }
 
     @IBAction func tappedShowPasswordButton(_ sender: Any) {
@@ -39,7 +38,7 @@ class RestoreController: BaseController {
     }
     
     
-    func tappedOptionButton(){
+    override func tappedOptionButton(){
         let sheet = UIAlertController(title: "", message: nil, preferredStyle: .actionSheet)
         
         let cancelAction = UIAlertAction(title:"Cancel", style: .cancel, handler: nil)

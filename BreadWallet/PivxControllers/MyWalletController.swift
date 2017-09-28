@@ -13,7 +13,7 @@ class MyWalletController: BaseController {
     @IBOutlet weak var tableView: UITableView!
     
     override func setup(){
-        tableView.register(UINib(nibName:"MyWalletEmptyCell", bundle:nil), forHeaderFooterViewReuseIdentifier: emptyIdentifier)
+        tableView.register(UINib(nibName:"EmptyCell", bundle:nil), forHeaderFooterViewReuseIdentifier: emptyIdentifier)
         tableView.register(UINib(nibName:"MyWalletCell", bundle:nil), forCellReuseIdentifier: cellIdentifier)
         tableView.delegate = self
         tableView.dataSource = self
@@ -41,6 +41,11 @@ class MyWalletController: BaseController {
     func tappedScanButton(){
     }
 
+    @IBAction func tappedSendButton(_ sender: Any) {
+        let controller = SendController(nibName: "Send", bundle: nil)
+        navigationController?.show(controller, sender: nil)
+    }
+    
 }
 
 extension MyWalletController:UITableViewDelegate,UITableViewDataSource {
@@ -55,7 +60,8 @@ extension MyWalletController:UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         if state == .empty {
-            let footer = tableView.dequeueReusableHeaderFooterView(withIdentifier: emptyIdentifier)
+            let footer = tableView.dequeueReusableHeaderFooterView(withIdentifier: emptyIdentifier) as! EmptyCell
+            footer.cofigureWith(title: "You don’t have anytransfers yet.", name: "imgTransactionEmpty")
             return footer
         }
         return nil

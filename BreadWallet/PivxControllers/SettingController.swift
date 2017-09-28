@@ -41,4 +41,9 @@ class SettingController: BaseController {
         controller.auxTitle = "Insert your current PIN"
         navigationController?.show(controller, sender: nil)
     }
+    @IBAction func tappedNetworkMonitorButton(_ sender: Any) {
+        let controller = NetworkMonitorController()
+        navigationController?.show(controller, sender: nil)
+        
+    }
 }

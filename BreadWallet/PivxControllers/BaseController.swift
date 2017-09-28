@@ -41,6 +41,15 @@ class BaseController: UIViewController {
         
     }
     
+    func addOptionButton(){
+        let optionButton = UIBarButtonItem(image: UIImage(named:"icMenuOptions"), style: .plain, target: self, action: #selector(tappedOptionButton))
+        navigationItem.rightBarButtonItem = optionButton
+    }
+    
+    func tappedOptionButton(){
+    
+    }
+    
     func tappedMenuButton(){
         self.slideMenuController()?.openLeft()
     }

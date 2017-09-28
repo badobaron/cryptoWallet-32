@@ -21,7 +21,7 @@ class AddressContactController: BaseController {
     lazy var tableView:UITableView = {
         let table = UITableView()
         table.register(UINib(nibName:"AddressContactCell", bundle:nil), forCellReuseIdentifier: self.cellIdentifier)
-        table.register(UINib(nibName:"AddressContactEmptyCell", bundle:nil), forHeaderFooterViewReuseIdentifier: self.emptyIdentifier)
+        table.register(UINib(nibName:"EmptyCell", bundle:nil), forHeaderFooterViewReuseIdentifier: self.emptyIdentifier)
         table.delegate = self
         table.dataSource = self
         table.tableFooterView = UIView(frame: CGRect.zero)
@@ -32,6 +32,7 @@ class AddressContactController: BaseController {
     
     override func setup() {
         view.addSubview(tableView)
+        state = .empty
         tableView.anchor(view.topAnchor, left: view.leftAnchor, bottom: view.bottomAnchor, right: view.rightAnchor, topConstant: 0, leftConstant: 0, bottomConstant: 0, rightConstant: 0, widthConstant: 0, heightConstant: 0)
     }
     
@@ -53,14 +54,15 @@ extension AddressContactController:UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         if state == .empty {
-            return 300
+            return K.main.height - 64
         }
         return 0
     }
     
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         if state == .empty {
-            let footer = tableView.dequeueReusableHeaderFooterView(withIdentifier: emptyIdentifier)
+            let footer = tableView.dequeueReusableHeaderFooterView(withIdentifier: emptyIdentifier) as! EmptyCell
+            footer.cofigureWith(title: "You don’t have any saved address yet", name: "imgAddressEmpty")
             return footer
         }
         return nil
@@ -71,7 +73,7 @@ extension AddressContactController:UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

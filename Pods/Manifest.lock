@@ -1,7 +1,9 @@
 PODS:
+  - IQKeyboardManagerSwift (4.0.9)
   - SlideMenuControllerSwift (3.0.2)
 
 DEPENDENCIES:
+  - IQKeyboardManagerSwift
   - SlideMenuControllerSwift (from `https://github.com/dekatotoro/SlideMenuControllerSwift.git`, branch `swift3`)
 
 EXTERNAL SOURCES:
@@ -15,8 +17,9 @@ CHECKOUT OPTIONS:
     :git: https://github.com/dekatotoro/SlideMenuControllerSwift.git
 
 SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
   SlideMenuControllerSwift: 9e8d2bba8ea9201c6207acb76e95a2841453ec9c
 
-PODFILE CHECKSUM: af5850f8bf51534ce0eb8c13325dd6dc292535f1
+PODFILE CHECKSUM: ef50caa3a40fdf6938669bf573bdd2ca91aff999
 
 COCOAPODS: 1.0.1

@@ -105,6 +105,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [Utils configureNavigationBar];
+    [Utils configureIQKeyboard];
     
     
     _window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];

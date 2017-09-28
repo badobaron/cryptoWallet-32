@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="81" id="Wuo-Kk-wOU" customClass="NetworkMonitorCell" customModule="breadwallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Wuo-Kk-wOU" id="fh3-2x-dxX">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="237.120.211.120.bcludusercontent.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLV-Zg-JOC">
+                        <rect key="frame" x="8" y="8" width="351" height="18.5"/>
+                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                        <color key="textColor" red="0.33333333329999998" green="0.2784313725" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pivx:4.0.2.53/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eq7-SZ-CHZ">
+                        <rect key="frame" x="8" y="34.5" width="75" height="16.5"/>
+                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                        <color key="textColor" red="0.42352941176470588" green="0.42352941176470588" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="38123 Blocks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qS-bS-Rbl">
+                        <rect key="frame" x="291" y="34.5" width="76" height="16.5"/>
+                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                        <color key="textColor" red="0.42352941179999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="140ms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZ6-nV-z27">
+                        <rect key="frame" x="329.5" y="59" width="37.5" height="16.5"/>
+                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                        <color key="textColor" red="0.42352941179999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="protocol:70014" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TbF-dY-hLl">
+                        <rect key="frame" x="8" y="59" width="87.5" height="16.5"/>
+                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                        <color key="textColor" red="0.42352941179999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icTransfer" translatesAutoresizingMaskIntoConstraints="NO" id="Cqc-e8-O0a">
+                        <rect key="frame" x="311" y="62.5" width="10" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="0Zm-jM-778"/>
+                            <constraint firstAttribute="width" constant="10" id="aa5-KE-aHp"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="TbF-dY-hLl" firstAttribute="bottom" secondItem="fh3-2x-dxX" secondAttribute="bottomMargin" id="0Dk-11-JAY"/>
+                    <constraint firstItem="cLV-Zg-JOC" firstAttribute="top" secondItem="fh3-2x-dxX" secondAttribute="topMargin" id="59H-J4-ubE"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="7qS-bS-Rbl" secondAttribute="trailing" id="7O7-Jw-2pq"/>
+                    <constraint firstItem="Eq7-SZ-CHZ" firstAttribute="leading" secondItem="fh3-2x-dxX" secondAttribute="leadingMargin" id="AEP-F4-Epq"/>
+                    <constraint firstItem="7qS-bS-Rbl" firstAttribute="top" secondItem="cLV-Zg-JOC" secondAttribute="bottom" constant="8" id="C4Z-44-bUv"/>
+                    <constraint firstItem="cLV-Zg-JOC" firstAttribute="leading" secondItem="fh3-2x-dxX" secondAttribute="leadingMargin" id="Fa4-E4-VA1"/>
+                    <constraint firstItem="GZ6-nV-z27" firstAttribute="leading" secondItem="Cqc-e8-O0a" secondAttribute="trailing" constant="8" id="GoC-QP-OeR"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cLV-Zg-JOC" secondAttribute="trailing" constant="8" id="MPU-OE-cju"/>
+                    <constraint firstItem="Eq7-SZ-CHZ" firstAttribute="top" secondItem="cLV-Zg-JOC" secondAttribute="bottom" constant="8" id="TLj-BK-EGs"/>
+                    <constraint firstAttribute="trailing" secondItem="GZ6-nV-z27" secondAttribute="trailing" constant="8" id="ZIE-v6-5ec"/>
+                    <constraint firstItem="TbF-dY-hLl" firstAttribute="leading" secondItem="fh3-2x-dxX" secondAttribute="leading" constant="8" id="kV8-m6-0qh"/>
+                    <constraint firstItem="TbF-dY-hLl" firstAttribute="top" secondItem="Eq7-SZ-CHZ" secondAttribute="bottom" constant="8" id="kxc-qR-EK8"/>
+                    <constraint firstItem="GZ6-nV-z27" firstAttribute="top" secondItem="7qS-bS-Rbl" secondAttribute="bottom" constant="8" id="rhK-Du-YMv"/>
+                    <constraint firstItem="Cqc-e8-O0a" firstAttribute="centerY" secondItem="GZ6-nV-z27" secondAttribute="centerY" id="sv9-FP-X1g"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
+            <point key="canvasLocation" x="41.5" y="164.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icTransfer" width="12" height="13"/>
+    </resources>
+</document>

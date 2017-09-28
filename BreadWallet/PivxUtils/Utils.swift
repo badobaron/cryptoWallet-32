@@ -8,6 +8,7 @@
 
 import UIKit
 import SlideMenuControllerSwift
+import IQKeyboardManagerSwift
 
 class Utils: NSObject {
 
@@ -19,6 +20,10 @@ class Utils: NSObject {
         UINavigationBar.appearance().isTranslucent = false
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white,
                                                             NSFontAttributeName: K.font.GillSansRegular()]
+    }
+    
+    static func configureIQKeyboard() {
+        IQKeyboardManager.sharedManager().enable = true
     }
     
     static func toHome()->UIViewController{

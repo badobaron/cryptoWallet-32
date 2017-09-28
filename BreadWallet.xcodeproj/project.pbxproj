@@ -170,11 +170,7 @@
 		DEB328C21F7ABDEC00AC9681 /* AddressContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328C11F7ABDEC00AC9681 /* AddressContactController.swift */; };
 		DEB328C71F7AC24600AC9681 /* AddressContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328C61F7AC24600AC9681 /* AddressContactCell.xib */; };
 		DEB328CA1F7AC54500AC9681 /* AddressContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328C91F7AC54500AC9681 /* AddressContactCell.swift */; };
-		DEB328CD1F7AC96600AC9681 /* AddressContactEmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328CC1F7AC96600AC9681 /* AddressContactEmptyCell.xib */; };
-		DEB328CF1F7AD82100AC9681 /* AddressContactEmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328CE1F7AD82100AC9681 /* AddressContactEmptyCell.swift */; };
 		DEB328D11F7AD94000AC9681 /* MyWalletCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328D01F7AD94000AC9681 /* MyWalletCell.xib */; };
-		DEB328D31F7ADB7500AC9681 /* MyWalletEmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328D21F7ADB7500AC9681 /* MyWalletEmptyCell.xib */; };
-		DEB328D51F7ADC0300AC9681 /* MyWalletEmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328D41F7ADC0300AC9681 /* MyWalletEmptyCell.swift */; };
 		DEB328D71F7ADC4C00AC9681 /* MyWalletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328D61F7ADC4C00AC9681 /* MyWalletCell.swift */; };
 		DEB328D91F7ADFE200AC9681 /* MyAddress.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328D81F7ADFE100AC9681 /* MyAddress.xib */; };
 		DEB328DB1F7AE1F700AC9681 /* MyAddressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328DA1F7AE1F700AC9681 /* MyAddressController.swift */; };
@@ -188,6 +184,19 @@
 		DEB328EC1F7B114900AC9681 /* WatchOnlyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328EB1F7B114900AC9681 /* WatchOnlyController.swift */; };
 		DEB328EE1F7C18AC00AC9681 /* ExportWalletController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328ED1F7C18AC00AC9681 /* ExportWalletController.swift */; };
 		DEB328F01F7C193100AC9681 /* ExportWallet.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328EF1F7C193100AC9681 /* ExportWallet.xib */; };
+		DEB328F31F7C305800AC9681 /* NetworkMonitorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328F21F7C305800AC9681 /* NetworkMonitorCell.xib */; };
+		DEB328F51F7C348700AC9681 /* NetworkMonitorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328F41F7C348700AC9681 /* NetworkMonitorCell.swift */; };
+		DEB328F71F7C350700AC9681 /* NetworkMonitorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328F61F7C350700AC9681 /* NetworkMonitorController.swift */; };
+		DEB328FB1F7C4D1000AC9681 /* SendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328FA1F7C4D1000AC9681 /* SendController.swift */; };
+		DEB328FD1F7C552600AC9681 /* CoinSelection.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB328FC1F7C552600AC9681 /* CoinSelection.xib */; };
+		DEB328FF1F7C595600AC9681 /* CoinSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB328FE1F7C595600AC9681 /* CoinSelectionController.swift */; };
+		DEB329011F7C5D5700AC9681 /* EmptyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB329001F7C5D5700AC9681 /* EmptyCell.xib */; };
+		DEB329031F7C627A00AC9681 /* EmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB329021F7C627A00AC9681 /* EmptyCell.swift */; };
+		DEB329051F7C678700AC9681 /* CoinSelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB329041F7C678700AC9681 /* CoinSelectionCell.xib */; };
+		DEB329071F7C69C900AC9681 /* CoinSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB329061F7C69C800AC9681 /* CoinSelectionCell.swift */; };
+		DEB329091F7C6F1500AC9681 /* AddressList.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB329081F7C6F1500AC9681 /* AddressList.xib */; };
+		DEB3290B1F7C71FD00AC9681 /* AddressListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3290A1F7C71FD00AC9681 /* AddressListController.swift */; };
+		DEB3290D1F7C7C2200AC9681 /* AddressListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB3290C1F7C7C2200AC9681 /* AddressListCell.xib */; };
 		DEFC9EE71F756A7C00C5CA20 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9EE61F756A7C00C5CA20 /* Login.xib */; };
 		DEFC9EEA1F756B3400C5CA20 /* Pivx.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFC9EE91F756B3400C5CA20 /* Pivx.xcassets */; };
 		DEFC9EED1F756C0A00C5CA20 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC9EEC1F756C0A00C5CA20 /* LoginController.swift */; };
@@ -654,11 +663,7 @@
 		DEB328C11F7ABDEC00AC9681 /* AddressContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressContactController.swift; path = PivxControllers/AddressContactController.swift; sourceTree = "<group>"; };
 		DEB328C61F7AC24600AC9681 /* AddressContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddressContactCell.xib; path = PivxNibs/TableCells/AddressContactCell.xib; sourceTree = "<group>"; };
 		DEB328C91F7AC54500AC9681 /* AddressContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressContactCell.swift; path = PivxViews/TableCells/AddressContactCell.swift; sourceTree = "<group>"; };
-		DEB328CC1F7AC96600AC9681 /* AddressContactEmptyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddressContactEmptyCell.xib; path = PivxNibs/TableCells/AddressContactEmptyCell.xib; sourceTree = "<group>"; };
-		DEB328CE1F7AD82100AC9681 /* AddressContactEmptyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressContactEmptyCell.swift; path = PivxViews/TableCells/AddressContactEmptyCell.swift; sourceTree = "<group>"; };
 		DEB328D01F7AD94000AC9681 /* MyWalletCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyWalletCell.xib; path = PivxNibs/TableCells/MyWalletCell.xib; sourceTree = "<group>"; };
-		DEB328D21F7ADB7500AC9681 /* MyWalletEmptyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyWalletEmptyCell.xib; path = PivxNibs/TableCells/MyWalletEmptyCell.xib; sourceTree = "<group>"; };
-		DEB328D41F7ADC0300AC9681 /* MyWalletEmptyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyWalletEmptyCell.swift; path = PivxViews/TableCells/MyWalletEmptyCell.swift; sourceTree = "<group>"; };
 		DEB328D61F7ADC4C00AC9681 /* MyWalletCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyWalletCell.swift; path = PivxViews/TableCells/MyWalletCell.swift; sourceTree = "<group>"; };
 		DEB328D81F7ADFE100AC9681 /* MyAddress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyAddress.xib; path = PivxNibs/Controllers/MyAddress.xib; sourceTree = "<group>"; };
 		DEB328DA1F7AE1F700AC9681 /* MyAddressController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyAddressController.swift; path = PivxControllers/MyAddressController.swift; sourceTree = "<group>"; };
@@ -672,6 +677,19 @@
 		DEB328EB1F7B114900AC9681 /* WatchOnlyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WatchOnlyController.swift; path = PivxControllers/WatchOnlyController.swift; sourceTree = "<group>"; };
 		DEB328ED1F7C18AC00AC9681 /* ExportWalletController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExportWalletController.swift; path = PivxControllers/ExportWalletController.swift; sourceTree = "<group>"; };
 		DEB328EF1F7C193100AC9681 /* ExportWallet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExportWallet.xib; path = PivxNibs/Controllers/ExportWallet.xib; sourceTree = "<group>"; };
+		DEB328F21F7C305800AC9681 /* NetworkMonitorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NetworkMonitorCell.xib; path = PivxNibs/TableCells/NetworkMonitorCell.xib; sourceTree = "<group>"; };
+		DEB328F41F7C348700AC9681 /* NetworkMonitorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkMonitorCell.swift; path = PivxViews/TableCells/NetworkMonitorCell.swift; sourceTree = "<group>"; };
+		DEB328F61F7C350700AC9681 /* NetworkMonitorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkMonitorController.swift; path = PivxControllers/NetworkMonitorController.swift; sourceTree = "<group>"; };
+		DEB328FA1F7C4D1000AC9681 /* SendController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SendController.swift; path = PivxControllers/SendController.swift; sourceTree = "<group>"; };
+		DEB328FC1F7C552600AC9681 /* CoinSelection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CoinSelection.xib; path = PivxNibs/Controllers/CoinSelection.xib; sourceTree = "<group>"; };
+		DEB328FE1F7C595600AC9681 /* CoinSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoinSelectionController.swift; path = PivxControllers/CoinSelectionController.swift; sourceTree = "<group>"; };
+		DEB329001F7C5D5700AC9681 /* EmptyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EmptyCell.xib; path = PivxNibs/TableCells/EmptyCell.xib; sourceTree = "<group>"; };
+		DEB329021F7C627A00AC9681 /* EmptyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmptyCell.swift; path = PivxViews/TableCells/EmptyCell.swift; sourceTree = "<group>"; };
+		DEB329041F7C678700AC9681 /* CoinSelectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CoinSelectionCell.xib; path = PivxNibs/TableCells/CoinSelectionCell.xib; sourceTree = "<group>"; };
+		DEB329061F7C69C800AC9681 /* CoinSelectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoinSelectionCell.swift; path = PivxViews/TableCells/CoinSelectionCell.swift; sourceTree = "<group>"; };
+		DEB329081F7C6F1500AC9681 /* AddressList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddressList.xib; path = PivxNibs/Controllers/AddressList.xib; sourceTree = "<group>"; };
+		DEB3290A1F7C71FD00AC9681 /* AddressListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressListController.swift; path = PivxControllers/AddressListController.swift; sourceTree = "<group>"; };
+		DEB3290C1F7C7C2200AC9681 /* AddressListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddressListCell.xib; path = PivxNibs/TableCells/AddressListCell.xib; sourceTree = "<group>"; };
 		DEFC9EE61F756A7C00C5CA20 /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Login.xib; path = PivxNibs/Controllers/Login.xib; sourceTree = "<group>"; };
 		DEFC9EE91F756B3400C5CA20 /* Pivx.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Pivx.xcassets; sourceTree = "<group>"; };
 		DEFC9EEC1F756C0A00C5CA20 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = PivxControllers/LoginController.swift; sourceTree = "<group>"; };
@@ -1261,9 +1279,11 @@
 			isa = PBXGroup;
 			children = (
 				DEB328C61F7AC24600AC9681 /* AddressContactCell.xib */,
-				DEB328CC1F7AC96600AC9681 /* AddressContactEmptyCell.xib */,
 				DEB328D01F7AD94000AC9681 /* MyWalletCell.xib */,
-				DEB328D21F7ADB7500AC9681 /* MyWalletEmptyCell.xib */,
+				DEB328F21F7C305800AC9681 /* NetworkMonitorCell.xib */,
+				DEB329001F7C5D5700AC9681 /* EmptyCell.xib */,
+				DEB329041F7C678700AC9681 /* CoinSelectionCell.xib */,
+				DEB3290C1F7C7C2200AC9681 /* AddressListCell.xib */,
 			);
 			name = TableCells;
 			sourceTree = "<group>";
@@ -1281,9 +1301,10 @@
 			isa = PBXGroup;
 			children = (
 				DEB328C91F7AC54500AC9681 /* AddressContactCell.swift */,
-				DEB328CE1F7AD82100AC9681 /* AddressContactEmptyCell.swift */,
-				DEB328D41F7ADC0300AC9681 /* MyWalletEmptyCell.swift */,
+				DEB329061F7C69C800AC9681 /* CoinSelectionCell.swift */,
+				DEB329021F7C627A00AC9681 /* EmptyCell.swift */,
 				DEB328D61F7ADC4C00AC9681 /* MyWalletCell.swift */,
+				DEB328F41F7C348700AC9681 /* NetworkMonitorCell.swift */,
 			);
 			name = TableCells;
 			sourceTree = "<group>";
@@ -1309,8 +1330,11 @@
 		DEFC9EE81F756A8600C5CA20 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DEB329081F7C6F1500AC9681 /* AddressList.xib */,
 				DEB328BB1F7AB16B00AC9681 /* Backup.xib */,
+				DEB328FC1F7C552600AC9681 /* CoinSelection.xib */,
 				DEB328B01F7A172B00AC9681 /* Donation.xib */,
+				DEB328EF1F7C193100AC9681 /* ExportWallet.xib */,
 				DEFC9EE61F756A7C00C5CA20 /* Login.xib */,
 				DEB328A71F79FB4400AC9681 /* Menu.xib */,
 				DEB328D81F7ADFE100AC9681 /* MyAddress.xib */,
@@ -1318,12 +1342,11 @@
 				DEB328DC1F7AE3AB00AC9681 /* NewAddress.xib */,
 				DEFC9F251F788E6200C5CA20 /* PinCode.xib */,
 				DEFC9EFE1F75899E00C5CA20 /* Restore.xib */,
+				DEB328E01F7AF0E600AC9681 /* RestoreWord.xib */,
 				DEB328B51F7A8AD800AC9681 /* Send.xib */,
 				DEB328B71F7AA8CD00AC9681 /* Setting.xib */,
 				DEFC9F1F1F75A36200C5CA20 /* Setup.xib */,
-				DEB328E01F7AF0E600AC9681 /* RestoreWord.xib */,
 				DEB328E91F7B0F9E00AC9681 /* WatchOnly.xib */,
-				DEB328EF1F7C193100AC9681 /* ExportWallet.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -1331,22 +1354,26 @@
 		DEFC9EEB1F756BBA00C5CA20 /* PivxControllers */ = {
 			isa = PBXGroup;
 			children = (
-				DEFC9EEC1F756C0A00C5CA20 /* LoginController.swift */,
-				DEFC9EEE1F756CB100C5CA20 /* BaseController.swift */,
-				DEFC9EFC1F75896300C5CA20 /* RestoreController.swift */,
-				DEFC9F211F75A5A100C5CA20 /* SetupController.swift */,
-				DEFC9F271F78951300C5CA20 /* PinCodeController.swift */,
-				DEB328AB1F7A0E7700AC9681 /* MenuController.swift */,
-				DEB328AD1F7A103700AC9681 /* MyWalletController.swift */,
-				DEB328B21F7A196200AC9681 /* DonationController.swift */,
-				DEB328B91F7AAFF100AC9681 /* SettingController.swift */,
-				DEB328BD1F7AB58100AC9681 /* BackupController.swift */,
 				DEB328C11F7ABDEC00AC9681 /* AddressContactController.swift */,
-				DEB328DA1F7AE1F700AC9681 /* MyAddressController.swift */,
-				DEB328DE1F7AE5E500AC9681 /* NewAddressController.swift */,
-				DEB328E71F7AFF1800AC9681 /* RestoreWordController.swift */,
-				DEB328EB1F7B114900AC9681 /* WatchOnlyController.swift */,
+				DEB3290A1F7C71FD00AC9681 /* AddressListController.swift */,
+				DEB328BD1F7AB58100AC9681 /* BackupController.swift */,
+				DEFC9EEE1F756CB100C5CA20 /* BaseController.swift */,
+				DEB328FE1F7C595600AC9681 /* CoinSelectionController.swift */,
+				DEB328B21F7A196200AC9681 /* DonationController.swift */,
 				DEB328ED1F7C18AC00AC9681 /* ExportWalletController.swift */,
+				DEFC9EEC1F756C0A00C5CA20 /* LoginController.swift */,
+				DEB328AB1F7A0E7700AC9681 /* MenuController.swift */,
+				DEB328DA1F7AE1F700AC9681 /* MyAddressController.swift */,
+				DEB328AD1F7A103700AC9681 /* MyWalletController.swift */,
+				DEB328F61F7C350700AC9681 /* NetworkMonitorController.swift */,
+				DEB328DE1F7AE5E500AC9681 /* NewAddressController.swift */,
+				DEFC9F271F78951300C5CA20 /* PinCodeController.swift */,
+				DEFC9EFC1F75896300C5CA20 /* RestoreController.swift */,
+				DEB328E71F7AFF1800AC9681 /* RestoreWordController.swift */,
+				DEB328FA1F7C4D1000AC9681 /* SendController.swift */,
+				DEB328B91F7AAFF100AC9681 /* SettingController.swift */,
+				DEFC9F211F75A5A100C5CA20 /* SetupController.swift */,
+				DEB328EB1F7B114900AC9681 /* WatchOnlyController.swift */,
 			);
 			name = PivxControllers;
 			sourceTree = "<group>";
@@ -1652,12 +1679,15 @@
 				DEFC9F1E1F759F6800C5CA20 /* Step4View.xib in Resources */,
 				DEB328BC1F7AB16B00AC9681 /* Backup.xib in Resources */,
 				DEFC9F111F759C4800C5CA20 /* ZillaSlab-Italic.ttf in Resources */,
+				DEB3290D1F7C7C2200AC9681 /* AddressListCell.xib in Resources */,
+				DEB328F31F7C305800AC9681 /* NetworkMonitorCell.xib in Resources */,
 				DEB328B61F7A8AD800AC9681 /* Send.xib in Resources */,
 				DEFC9EFF1F75899E00C5CA20 /* Restore.xib in Resources */,
+				DEB328FD1F7C552600AC9681 /* CoinSelection.xib in Resources */,
 				DEB328DD1F7AE3AB00AC9681 /* NewAddress.xib in Resources */,
+				DEB329051F7C678700AC9681 /* CoinSelectionCell.xib in Resources */,
 				DEFC9F161F759C4800C5CA20 /* ZillaSlab-Regular.ttf in Resources */,
 				75D5F3E0191EC270004AB296 /* Images.xcassets in Resources */,
-				DEB328CD1F7AC96600AC9681 /* AddressContactEmptyCell.xib in Resources */,
 				DEB328C71F7AC24600AC9681 /* AddressContactCell.xib in Resources */,
 				DEB328AA1F7A0B5200AC9681 /* MyWallet.xib in Resources */,
 				DEB328E31F7AF30000AC9681 /* RestoreWordView.xib in Resources */,
@@ -1668,13 +1698,13 @@
 				DEFC9F201F75A36200C5CA20 /* Setup.xib in Resources */,
 				DEFC9F1C1F759ED100C5CA20 /* Step3View.xib in Resources */,
 				22FBC9701CE3A9D5009578B7 /* bread-buy.tar in Resources */,
+				DEB329011F7C5D5700AC9681 /* EmptyCell.xib in Resources */,
 				DEFC9F171F759C4800C5CA20 /* ZillaSlab-SemiBold.ttf in Resources */,
 				757E09991ADB8EEB006FD352 /* Localizable.strings in Resources */,
 				DEFC9F151F759C4800C5CA20 /* ZillaSlab-MediumItalic.ttf in Resources */,
 				75F2E0D31BE9803900EAE861 /* Launch Screen.storyboard in Resources */,
 				75C0E3BF1B1BA294007BC531 /* BIP39Words.plist in Resources */,
 				DEB328EA1F7B0F9E00AC9681 /* WatchOnly.xib in Resources */,
-				DEB328D31F7ADB7500AC9681 /* MyWalletEmptyCell.xib in Resources */,
 				DEFC9F181F759C4800C5CA20 /* ZillaSlab-SemiBoldItalic.ttf in Resources */,
 				75E83CF61B5F997A0038FB70 /* coinflip.aiff in Resources */,
 				DEB328E11F7AF0E600AC9681 /* RestoreWord.xib in Resources */,
@@ -1686,6 +1716,7 @@
 				75D5F3DE191EC270004AB296 /* Main.storyboard in Resources */,
 				DEB328D91F7ADFE200AC9681 /* MyAddress.xib in Resources */,
 				DEFC9EEA1F756B3400C5CA20 /* Pivx.xcassets in Resources */,
+				DEB329091F7C6F1500AC9681 /* AddressList.xib in Resources */,
 				DEFC9F0F1F759C4800C5CA20 /* ZillaSlab-Bold.ttf in Resources */,
 				DEFC9F141F759C4800C5CA20 /* ZillaSlab-Medium.ttf in Resources */,
 				DEFC9EE71F756A7C00C5CA20 /* Login.xib in Resources */,
@@ -1831,8 +1862,11 @@
 				BA7B535C1BDBC36700355E8D /* BRTransaction+Utils.m in Sources */,
 				758DBD0E1980634900389E2A /* BRTxDetailViewController.m in Sources */,
 				DEB328AC1F7A0E7700AC9681 /* MenuController.swift in Sources */,
+				DEB329031F7C627A00AC9681 /* EmptyCell.swift in Sources */,
 				7548CF3719556FD700EF827F /* BRCopyLabel.m in Sources */,
 				229279A11C695D7900C98E78 /* BRBSPatch.swift in Sources */,
+				DEB328FB1F7C4D1000AC9681 /* SendController.swift in Sources */,
+				DEB328FF1F7C595600AC9681 /* CoinSelectionController.swift in Sources */,
 				DEFC9F221F75A5A100C5CA20 /* SetupController.swift in Sources */,
 				752E28D119234C3600DB5A3C /* BRKey.m in Sources */,
 				DEB328B31F7A196200AC9681 /* DonationController.swift in Sources */,
@@ -1851,6 +1885,8 @@
 				752874FB1F393391002167CC /* BRAddress.c in Sources */,
 				229279A51C695DE700C98E78 /* BRAPIProxy.swift in Sources */,
 				752E28DA19234C3600DB5A3C /* BRWallet.m in Sources */,
+				DEB328F51F7C348700AC9681 /* NetworkMonitorCell.swift in Sources */,
+				DEB329071F7C69C900AC9681 /* CoinSelectionCell.swift in Sources */,
 				229279981C695C4200C98E78 /* BRHTTPServer.swift in Sources */,
 				752874FF1F393391002167CC /* BRBIP39Mnemonic.c in Sources */,
 				CE5EFDD41F392F36001A21C1 /* BRAdvancedSettingsViewController.m in Sources */,
@@ -1868,11 +1904,9 @@
 				752E28D619234C3600DB5A3C /* BRPeer.m in Sources */,
 				752E28D819234C3600DB5A3C /* BRPeerManager.m in Sources */,
 				752875081F393391002167CC /* BRTransaction.c in Sources */,
-				DEB328CF1F7AD82100AC9681 /* AddressContactEmptyCell.swift in Sources */,
 				752875001F393391002167CC /* BRBloomFilter.c in Sources */,
 				2263D1BB1EE8A268008F6F8C /* Bonjour.swift in Sources */,
 				752E28D419234C3600DB5A3C /* BRPaymentProtocol.m in Sources */,
-				DEB328D51F7ADC0300AC9681 /* MyWalletEmptyCell.swift in Sources */,
 				DEB328DF1F7AE5E500AC9681 /* NewAddressController.swift in Sources */,
 				DEB328CA1F7AC54500AC9681 /* AddressContactCell.swift in Sources */,
 				22F7B6D51D1479FA007CC848 /* BRBitID.swift in Sources */,
@@ -1898,6 +1932,7 @@
 				CE5EFDD71F3935BF001A21C1 /* BRSendBCHViewController.m in Sources */,
 				DEB328D71F7ADC4C00AC9681 /* MyWalletCell.swift in Sources */,
 				757BE7E6192C1FF70061CB20 /* BRWelcomeViewController.m in Sources */,
+				DEB328F71F7C350700AC9681 /* NetworkMonitorController.swift in Sources */,
 				757BE7E9192D4E880061CB20 /* BRSeedViewController.m in Sources */,
 				752E28E719234DA200DB5A3C /* NSData+Bitcoin.m in Sources */,
 				220128D31C753C670001CAC1 /* BRSocketHelpers.c in Sources */,
@@ -1910,6 +1945,7 @@
 				752E28EB19234DA200DB5A3C /* NSString+Bitcoin.m in Sources */,
 				757C89521A2FCE420076B373 /* BRSettingsViewController.m in Sources */,
 				22649FED1DAABDB200042EBC /* BRCameraPlugin.swift in Sources */,
+				DEB3290B1F7C71FD00AC9681 /* AddressListController.swift in Sources */,
 				DEB328EE1F7C18AC00AC9681 /* ExportWalletController.swift in Sources */,
 				22A86F671EFDBC7300CAD61F /* BRBrowserViewController.swift in Sources */,
 				220128D51C76E1550001CAC1 /* BRWebSocket.swift in Sources */,

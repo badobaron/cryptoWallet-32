@@ -2,6 +2,7 @@ platform :ios, '9.0'
 target 'breadwallet' do
     use_frameworks!
     pod 'SlideMenuControllerSwift', :git => 'https://github.com/dekatotoro/SlideMenuControllerSwift.git', :branch => 'swift3'
+    pod 'IQKeyboardManagerSwift'
 end
 
 post_install do |installer|

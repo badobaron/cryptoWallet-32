@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="95" id="VNx-zO-S9m" customClass="CoinSelectionCell" customModule="breadwallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="98"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VNx-zO-S9m" id="Y93-d3-gZD">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="97.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="z2F-7D-kk0">
+                        <rect key="frame" x="8" y="8" width="51" height="31"/>
+                        <color key="onTintColor" red="0.33333333329999998" green="0.2784313725" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </switch>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PIV 14606" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYK-4K-IO4">
+                        <rect key="frame" x="65" y="14.5" width="294" height="18.5"/>
+                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                        <color key="textColor" red="0.33333333329999998" green="0.2784313725" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1FfmbHfnpaZjKFvyi1okTjJJusN455paPH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ng-Tk-2re">
+                        <rect key="frame" x="65" y="41" width="294" height="16.5"/>
+                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                        <color key="textColor" red="0.42352941176470588" green="0.42352941176470588" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="45 Confirmaciones" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPE-fR-FXt">
+                        <rect key="frame" x="65" y="65" width="186" height="16.5"/>
+                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                        <color key="textColor" red="0.42352941179999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24/09/2017" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BS7-82-LHt">
+                        <rect key="frame" x="259" y="65" width="100" height="16.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="by2-oK-Cvd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                        <color key="textColor" red="0.42352941179999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="mYK-4K-IO4" firstAttribute="centerY" secondItem="z2F-7D-kk0" secondAttribute="centerY" id="4ZP-q5-evu"/>
+                    <constraint firstItem="mYK-4K-IO4" firstAttribute="leading" secondItem="z2F-7D-kk0" secondAttribute="trailing" constant="8" id="4bt-Da-rTg"/>
+                    <constraint firstItem="1ng-Tk-2re" firstAttribute="leading" secondItem="z2F-7D-kk0" secondAttribute="trailing" constant="8" id="9aQ-K2-40m"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="YPE-fR-FXt" secondAttribute="bottom" constant="8" id="GV3-3X-hIm"/>
+                    <constraint firstItem="BS7-82-LHt" firstAttribute="top" secondItem="1ng-Tk-2re" secondAttribute="bottom" constant="8" id="Nln-ro-ytv"/>
+                    <constraint firstItem="YPE-fR-FXt" firstAttribute="top" secondItem="1ng-Tk-2re" secondAttribute="bottom" constant="8" id="Ovt-7H-5m7"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="BS7-82-LHt" secondAttribute="trailing" constant="8" id="RMe-Z4-4U3"/>
+                    <constraint firstItem="1ng-Tk-2re" firstAttribute="top" secondItem="mYK-4K-IO4" secondAttribute="bottom" constant="8" id="Spj-6k-h3L"/>
+                    <constraint firstItem="z2F-7D-kk0" firstAttribute="top" secondItem="Y93-d3-gZD" secondAttribute="topMargin" id="fmq-Fr-a4W"/>
+                    <constraint firstItem="BS7-82-LHt" firstAttribute="leading" secondItem="YPE-fR-FXt" secondAttribute="trailing" constant="8" id="kKs-1I-POt"/>
+                    <constraint firstItem="z2F-7D-kk0" firstAttribute="leading" secondItem="Y93-d3-gZD" secondAttribute="leadingMargin" id="nCK-JC-aa9"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="mYK-4K-IO4" secondAttribute="trailing" constant="8" id="orr-b4-aad"/>
+                    <constraint firstItem="YPE-fR-FXt" firstAttribute="leading" secondItem="z2F-7D-kk0" secondAttribute="trailing" constant="8" id="r3u-Aq-gvS"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="1ng-Tk-2re" secondAttribute="trailing" constant="8" id="zTc-Hq-C9E"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="64" minY="0.0" maxX="16" maxY="0.0"/>
+            <point key="canvasLocation" x="150.5" y="51.5"/>
+        </tableViewCell>
+    </objects>
+</document>
